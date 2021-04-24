@@ -1,0 +1,21 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/taskperform/taskerform",
+    "pages/taskfeedback/taskfeedback",
+    "pages/me/me",
+    "pages/me/setup/setup",
+    "pages/me/statistics/statistics"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black",
+    "navigationStyle": "custom"
+  },
+  "debug": true,
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

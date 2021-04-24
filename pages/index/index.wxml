@@ -1,0 +1,116 @@
+<view class="html">
+  <view class="top">
+    <view src="" class="top-bg" mode="aspectFit">
+      <view class="p-data">
+      <navigator url="/pages/me/me"><view class="avatar"></view></navigator>
+      <view class="p-data-texts">
+        <text class="p-data-text1">已连续签到 1 天</text>
+        <text class="p-data-text2">今日完成任务+21分</text>
+      </view>
+      <view class="p-btn">
+        <text class="p-btn-text">近期健康趋势</text>
+      </view>
+    </view>
+  </view>
+   
+  </view>
+  <view class="mid">
+    <view class="mid-container">
+      <text class="mid-title">连续签到领好礼</text>
+      <view class="check-dates">
+        <view class="check-date">
+          <text class="check-date-date">第1天</text>
+          <image src="../../assets/jinbi.png"></image>
+          <text class="check-date-score">10积分</text>
+        </view>
+        <view class="check-date">
+          <text class="check-date-date">第2天</text>
+          <image src="../../assets/jinbi.png"></image>
+          <text class="check-date-score">10积分</text>
+        </view>
+        <view class="check-date">
+          <text class="check-date-date">第3天</text>
+          <image src="../../assets/jinbi.png"></image>
+          <text class="check-date-score">10积分</text>
+        </view>
+        <view class="check-date">
+          <text class="check-date-date">第4天</text>
+          <image src="../../assets/jinbi.png"></image>
+          <text class="check-date-score">10积分</text>
+        </view>
+        <view class="check-date">
+          <text class="check-date-date">第5天</text>
+          <image src="../../assets/jinbi.png"></image>
+          <text class="check-date-score">10积分</text>
+        </view>
+        <view class="check-date">
+          <text class="check-date-date">第6天</text>
+          <image src="../../assets/jinbi.png"></image>
+          <text class="check-date-score">10积分</text>
+        </view>
+        
+        <view class="check-date-last">
+          <view class="check-date-last-texts">
+            <text class="check-date-date">第7天</text>
+            <text class="check-date-score">10积分</text>
+          </view>
+          <image src="../../assets/jinbi.png"></image>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="bot">
+    <view class="bot-container">
+      <view class="bot-text">
+        <text class="bot-text1">今日任务（2）</text>
+        <text class="bot-text2">2021.03.17 星期二</text>
+      </view>
+      <view class="tasks">
+        <view class="task">
+          <view class="task-img-box">
+            <image src="../../assets/task.png" class="task-icon"></image>
+          </view>
+          <view class="task-texts">
+            <text class="task-text1">血压健康保持</text>
+            <text class="task-text2">08:00</text>
+            <text class="task-text3">测量血压</text>
+            <text class="task-text4">如果血压超过130，吃降血压药</text>
+          </view>
+          <view class="task-btn">
+            <navigator url="/pages/taskperform/taskperform" hover-class="navigator-hover">执行任务</navigator>
+          </view>
+        </view>
+        <view class="task task2">
+          <view class="task-img-box">
+            <image src="../../assets/task.png" class="task-icon"></image>
+          </view>
+          <view class="task-texts">
+            <text class="task-text1">血压健康保持</text>
+            <text class="task-text2">08:00</text>
+            <text class="task-text3">测量血压</text>
+            <text class="task-text4">如果血压超过130，吃降血压药</text>
+          </view>
+          <view class="task-btn">
+            <navigator url="/pages/taskfeedback/taskfeedback" hover-class="navigator-hover">完成·看记录</navigator>
+          </view>
+        </view>
+      </view>
+      <view class="task-bot-btn">
+        <text>任务记录</text>
+      </view>
+    </view>
+  </view>
+  <view class="end">
+    <view class="end-cotainer">
+      <text class="end-title">我的健康管理员</text>
+      <view class="manager-box">
+        <text class="manager-name">蒋泽鑫</text>
+        <text class="manager-time">在线时间：09:00 - 18:00</text>
+        <text class="manager-phone">+86-18188312722</text>
+        <image class="manager-avatar"></image>
+        <image class="msg-btn" src="../../assets/pinglun.png"></image>
+      </view>
+    </view>
+   
+  </view>
+</view>
