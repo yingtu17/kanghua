@@ -1,0 +1,96 @@
+<view>
+  <view class="page">
+      <view class="bd1">
+        <view class="main1">
+          <view class="outer3">
+            <navigator url="/pages/me/me"><image
+              class="icon2"
+              referrerpolicy="no-referrer"
+              src="/assets/icon_left.png"
+            /></navigator>
+            <text class="txt1">被管理列表</text>
+          </view>
+        </view>
+        <view class="main2">
+          <view class="main3">
+            <view class="layer1">
+              <view class="section1"></view>
+              <view class="section2">
+                <text class="word2">郭德芳</text>
+                <text class="word3">181 8831 2722</text>
+              </view>
+              <text class="section3">
+                <text class="word4">已关注</text>
+              </text>
+              <view class="section4"><text class="info1">去沟通</text></view>
+            </view>
+            <view class="layer2">
+              <text class="info2">
+                起病：何时起病？起病前后有没有明显不同？有没有明显界限？是突然起病、还是慢慢变化？至于诱因，只要简单地说一说，不必太详细。
+              </text>
+            </view>
+          </view>
+        </view>
+        <view class="main2">
+          <view class="main3">
+            <view class="layer1">
+              <view class="section1"></view>
+              <view class="section2">
+                <text class="word2">郭德芳</text>
+                <text class="word3">181 8831 2722</text>
+              </view>
+              <text class="section3">
+                <text class="word4">已关注</text>
+              </text>
+              <view class="section4"><text class="info1">去沟通</text></view>
+            </view>
+            <view class="layer2">
+              <text class="info2">
+                起病：何时起病？起病前后有没有明显不同？有没有明显界限？是突然起病、还是慢慢变化？至于诱因，只要简单地说一说，不必太详细。
+              </text>
+            </view>
+          </view>
+        </view>
+        <view class="main2">
+          <view class="main3">
+            <view class="layer1">
+              <view class="section1"></view>
+              <view class="section2">
+                <text class="word2">郭德芳</text>
+                <text class="word3">181 8831 2722</text>
+              </view>
+              <text class="section3">
+                <text class="word4">已关注</text>
+              </text>
+              <view class="section4"><text class="info1">去沟通</text></view>
+            </view>
+            <view class="layer2">
+              <text class="info2">
+                起病：何时起病？起病前后有没有明显不同？有没有明显界限？是突然起病、还是慢慢变化？至于诱因，只要简单地说一说，不必太详细。
+              </text>
+            </view>
+          </view>
+        </view>
+        <view class="main2">
+          <view class="main3">
+            <view class="layer1">
+              <view class="section1"></view>
+              <view class="section2">
+                <text class="word2">郭德芳</text>
+                <text class="word3">181 8831 2722</text>
+              </view>
+              <text class="section3">
+                <text class="word4">已关注</text>
+              </text>
+              <view class="section4"><text class="info1">去沟通</text></view>
+            </view>
+            <view class="layer2">
+              <text class="info2">
+                起病：何时起病？起病前后有没有明显不同？有没有明显界限？是突然起病、还是慢慢变化？至于诱因，只要简单地说一说，不必太详细。
+              </text>
+            </view>
+          </view>
+        </view>
+    </view>
+  </view>
+</view>

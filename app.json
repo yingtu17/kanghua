@@ -6,7 +6,9 @@
     "pages/taskfeedback/taskfeedback",
     "pages/me/me",
     "pages/me/setup/setup",
-    "pages/me/statistics/statistics"
+    "pages/me/statistics/statistics",
+    "pages/me/attention/attention",
+    "pages/me/problem/problem"
   ],
   "window": {
     "backgroundTextStyle": "light",
