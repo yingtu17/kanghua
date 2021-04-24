@@ -1,0 +1,44 @@
+<!--pages/taskperform.wxml-->
+<view class="page">
+    <view class="mod1">
+      
+      <view class="mod3">
+        <img
+          class="label2"
+          referrerpolicy="no-referrer"
+          src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng97f7c7231c8cf3d1526309698e0d966c4df0a954100eaf141f9c0dfd22c6b40b"
+        />
+        <text class="word2">执行任务</text>
+        <img
+          class="img1"
+          referrerpolicy="no-referrer"
+          src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng802d45b6f75ec40d02fd91edc371443bf4cd1065b69b57eacbee9d960275705c"
+        />
+      </view>
+      <view class="mod4">
+        <text class="txt1">收缩压/舒张压</text>
+        <view class="box1"></view>
+        <text class="word3">/</text>
+        <view class="box2"></view>
+        <text class="txt2">mmHg毫米汞柱</text>
+      </view>
+      <text class="word4">药物服用</text>
+      <view class="mod5">
+        <view class="drugs"><image src="../../assets/xuanze_1.png"></image><text>高血压药（antihypertensive drugs）</text></view>
+        <view class="drugs"><image src="../../assets/xuanze.png"></image><text>β受体阻滞剂</text></view>
+        <view class="drugs"><image src="../../assets/xuanze.png"></image><text>钙通道阻断剂</text></view>
+      </view>
+      <text class="word8">任务完成说明</text>
+      <view class="mod8"></view>
+      <text class="txt3">图片上传(最多3张)</text>
+      <view class="mod9">
+        <view class="upload-box">
+          <image src="../../assets/xiangji.png"></image>
+          <text>上传凭证</text>
+        </view>
+      </view>
+      <button class="mod10">
+        <text class="word9">确定</text>
+      </button>
+    </view>
+  </view>

@@ -1,0 +1,55 @@
+<view class="page-title">
+  <text>健康趋势</text>
+</view>
+<view class="date-btns">
+  <view class="week-btn">
+    <text>最近7日</text>
+  </view>
+  <view class="month-btn">
+    <text>最近30日</text>
+  </view>
+</view>
+<view class="chart-title">
+  <text>收缩压记录</text>
+</view>
+<view class="chart-dates">
+    <text>四</text>
+    <text>五</text>
+    <text>六</text>
+    <text>日</text>
+    <text>一</text>
+    <text>二</text>
+    <text>三</text>
+    <text>今</text>
+  </view>
+  <view class="chart-dates">
+    <view>
+      <text>12</text>
+    </view>
+    <view>
+      <text>13</text>
+    </view>
+    <view>
+      <text>14</text>
+    </view>
+    <view>
+      <text>15</text>
+    </view>
+    <view>
+      <text>16</text>
+    </view>
+    <view>
+      <text>17</text>
+    </view>
+    <view>
+      <text>18</text>
+    </view>
+    <view>
+      <text>19</text>
+    </view>
+    
+  </view>
+<view class="chart1">
+  
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}" class="canvas"></ec-canvas>
+</view>

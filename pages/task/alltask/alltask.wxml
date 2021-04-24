@@ -1,0 +1,115 @@
+<view>
+  <view class="bd1">
+    <view class="group2">
+      <img class="icon2" referrerpolicy="no-referrer"
+        src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng97f7c7231c8cf3d1526309698e0d966c4df0a954100eaf141f9c0dfd22c6b40b" />
+      <text class="word1">任务记录</text>
+      <img class="img1" referrerpolicy="no-referrer"
+        src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng802d45b6f75ec40d02fd91edc371443bf4cd1065b69b57eacbee9d960275705c" />
+    </view>
+    <view class="group3">
+      <view class="date-selecte">
+        <view class="date-left">
+          <text>4月05日</text>
+          <text>开始时间</text>
+          <image src="/assets/icon_right.png"></image>
+        </view>
+        <view class="date-right">
+          <text>04月12日</text>
+          <text>结束时间</text>
+          <image src="/assets/icon_right.png"></image>
+        </view>
+      </view>
+    </view>
+    <view class="group4">
+      <text class="info3">本月</text>
+      <text class="info4"></text>
+      <text class="info5">13</text>
+      <text class="word4"></text>
+      <text class="word5">天完成任务，5天未完成</text>
+    </view>
+    <view class="checking">
+      <view class="check">
+        <image src="../../../assets/nocheck.png"></image>
+        <text>3.29</text>
+      </view>
+      <view class="check">
+        <image src="../../../assets/check.png"></image>
+        <text>3.30</text>
+      </view>
+      <view class="check">
+        <image src="../../../assets/check5.png"></image>
+        <text>今天</text>
+      </view>
+      <view class="check">
+        <image src="../../../assets/check5.png"></image>
+        <text>4.1</text>
+      </view>
+      <view class="check">
+        <image src="../../../assets/check5.png"></image>
+        <text>4.2</text>
+      </view>
+      <view class="check">
+        <image src="../../../assets/check5.png"></image>
+        <text>4.3</text>
+      </view>
+      <view class="check">
+        <image src="../../../assets/check5.png"></image>
+        <text>4.4</text>
+      </view>
+    </view>
+    <view class="group8">
+      <view class="box1">
+        <text class="info8">2020.03.18周二</text>
+
+          <view class="task">
+            <view class="task-img">
+              <image src="../../../assets/task.png"></image>
+            </view>
+            <view class="task-desc">
+              <text>血压健康保持</text>
+              <text>08:00</text>
+              <text>测量血压</text>
+              <text>如果血压超过130，吃降血压药（钙通道阻滞剂）</text>
+            </view>
+            <view class="task-stat">
+              <image src="../../../assets/yiwancheng.png"></image>
+            </view>
+          </view>
+          <view class="task">
+            <view class="task-img">
+              <image src="../../../assets/task.png"></image>
+            </view>
+            <view class="task-desc">
+              <text>血压健康保持</text>
+              <text>08:00</text>
+              <text>测量血压</text>
+              <text>如果血压超过130，吃降血压药（钙通道阻滞剂）</text>
+            </view>
+            <view class="task-stat">
+              <image src="../../../assets/weiwancheng.png"></image>
+            </view>
+          </view>
+
+
+        <text class="info8">2020.03.18周二</text>
+        <view class="tasks">
+          <view class="task">
+            <view class="task-img">
+              <image src="../../../assets/task.png"></image>
+            </view>
+            <view class="task-desc">
+              <text>血压健康保持</text>
+              <text>08:00</text>
+              <text>测量血压</text>
+              <text>如果血压超过130，吃降血压药（钙通道阻滞剂）</text>
+            </view>
+            <view class="task-stat">
+              <image src="../../../assets/yiwancheng.png"></image>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,251 @@
+.container {
+  z-index: 1;
+  position: relative;
+  width: 375px;
+  height: 812px;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 14px;
+  align-items: center;
+}
+
+.section1 {
+  z-index: auto;
+  width: 360px;
+  height: 189px;
+  display: flex;
+  flex-direction: column;
+}
+
+.layer1 {
+  z-index: auto;
+  width: 341px;
+  height: 18px;
+  margin-left: 13px;
+  flex-direction: row;
+  display: flex;
+}
+
+.info1 {
+  z-index: 17;
+  width: 54px;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 0, 0, 1);
+  font-size: 15px;
+  letter-spacing: -0.30000001192092896px;
+  font-family: SFProText-Semibold;
+  line-height: 18px;
+  text-align: center;
+}
+
+.label1 {
+  z-index: 11;
+  width: 17px;
+  height: 11px;
+  margin-top: 4px;
+  margin-left: 219px;
+}
+
+.block1 {
+  z-index: 7;
+  width: 16px;
+  height: 11px;
+  background-image: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngb3bbe96fea0140cfc24043ebc96677b3c6566f6cd0b99cb137439fb58271c764);
+  background-repeat: no-repeat;
+  background-position: 1.1368683772161603e-13px -0.3306727040326223px;
+  margin-top: 4px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.icon1 {
+  z-index: 3;
+  width: 25px;
+  height: 12px;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.layer2 {
+  z-index: auto;
+  width: 346px;
+  height: 28px;
+  margin-left: 13px;
+  margin-top: 16px;
+  flex-direction: row;
+  display: flex;
+}
+
+.label2 {
+  z-index: 19;
+  width: 8px;
+  height: 15px;
+  margin-top: 7px;
+}
+
+.txt1 {
+  z-index: 18;
+  width: 63px;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(40, 40, 40, 1);
+  font-size: 16px;
+  letter-spacing: -0.38857173919677734px;
+  font-family: PingFangSC-Medium;
+  line-height: 22px;
+  text-align: left;
+  margin-top: 3px;
+  margin-left: 127px;
+}
+
+.pic1 {
+  z-index: 23;
+  width: 75px;
+  height: 28px;
+  margin-left: 73px;
+}
+
+.layer3 {
+  z-index: auto;
+  width: 345px;
+  height: 20px;
+  margin-left: 7px;
+  margin-top: 54px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.word1 {
+  z-index: 35;
+  width: 69px;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 14px;
+  letter-spacing: -0.3400002717971802px;
+  font-family: PingFangSC-Regular;
+  line-height: 20px;
+  text-align: left;
+}
+
+.icon2 {
+  z-index: 41;
+  width: 5px;
+  height: 12px;
+  margin-top: 4px;
+}
+
+.layer4 {
+  z-index: 37;
+  width: 360px;
+  height: 1px;
+  background-color: rgba(249, 249, 249, 1);
+  align-self: center;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.layer5 {
+  z-index: auto;
+  width: 343px;
+  height: 20px;
+  margin-left: 7px;
+  margin-top: 14px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.word2 {
+  z-index: 36;
+  width: 55px;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 14px;
+  letter-spacing: -0.3400002717971802px;
+  font-family: PingFangSC-Regular;
+  line-height: 20px;
+  text-align: left;
+}
+
+.label3 {
+  z-index: 39;
+  width: 5px;
+  height: 12px;
+  margin-top: 4px;
+}
+
+.layer6 {
+  z-index: 38;
+  width: 360px;
+  height: 1px;
+  background-color: rgba(249, 249, 249, 1);
+  align-self: center;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.section2 {
+  z-index: 34;
+  position: absolute;
+  left: 1px;
+  top: 93px;
+  width: 375px;
+  height: 8px;
+  background-color: rgba(249, 249, 249, 1);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.confirm-glass {
+  width: 100%;
+  height: 100vh;
+  background: #ccc;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.confirm-box {
+  width: 642rpx;
+  height: 314rpx;
+  background: white;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+
+
+}
+.confirm-action {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80%;
+}
+.confirm-action view {
+  border: darkcyan 1px solid;
+  border-radius: 32px;
+  padding: 16rpx 48rpx;
+}
+.confirm-action view:nth-child(2) {
+  background: darkcyan;
+  color: white;
+}

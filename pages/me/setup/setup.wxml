@@ -1,0 +1,61 @@
+<view>
+    <view class="container">
+      <view class="section1">
+        <view class="layer2">
+          <navigator url="/pages/me/me"><image
+            class="label2"
+            referrerpolicy="no-referrer"
+            src="../../../assets/icon_left.png"
+          /></navigator>
+          <span class="txt1">个人设置</span>
+        </view>
+        <view class="layer3">
+          <span class="word1" bindtap="cancelbinding">解除手机号</span>
+          <image
+            class="icon2"
+            referrerpolicy="no-referrer"
+            src="../../../assets/icon_right.png"
+          />
+        </view>
+        <view class="layer4"></view>
+        <view class="layer5" bindtap="logout">
+          <text class="word2" >退出登陆</text>
+          <image
+            class="label3"
+            referrerpolicy="no-referrer"
+            src="../../../assets/icon_right.png"
+          />
+        </view>
+        <view class="layer6"></view>
+      </view>
+      <view class="section2"></view>
+    </view>
+</view>
+<view class="confirm-glass" wx:if="{{confirm === true}}">
+  <view class="confirm-box">
+    <text>温馨提示</text>
+    <text>您确定要退出登录吗？</text>
+    <view class="confirm-action">
+      <view bindtap="cancel">
+        <text >取消</text>
+      </view>
+      <view bindtap="confirmout">
+        <text >确定</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="confirm-glass" wx:if="{{cancelbind === true}}">
+  <view class="confirm-box">
+    <text>温馨提示</text>
+    <text>确定与手机号解绑吗?</text>
+    <view class="confirm-action">
+      <view bindtap="cancel">
+        <text >取消</text>
+      </view>
+      <view bindtap="confirmcancel">
+        <text >确定</text>
+      </view>
+    </view>
+  </view>
+</view>

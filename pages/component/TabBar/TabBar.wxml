@@ -1,0 +1,20 @@
+<view class="tabbar">
+  <navigator class="navigator">
+    <view class="index-tab">
+      <image src="../../../assets/hushi.png" class="tab-img"></image>
+      <text class="tab-text tab-active">主页</text>
+    </view>
+  </navigator>
+  <navigator class="navigator" url="/pages/msg/messages/message">
+    <view class="msg-tab">
+      <image src="../../../assets/xiaoxi.png" class="tab-img"></image>
+      <text class="tab-text">消息</text>
+    </view>
+  </navigator>
+  <navigator url="/pages/me/me" class="navigator">
+    <view class="me-tab">
+      <image src="../../../assets/haoping.png" class="tab-img"></image>
+      <text class="tab-text">我的</text>
+    </view>
+  </navigator>
+</view>
