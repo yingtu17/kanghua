@@ -9,7 +9,9 @@
     "pages/me/statistics/statistics",
     "pages/task/alltask/alltask",
     "pages/msg/messages/message",
-    "pages/index/chart/chart"
+    "pages/index/chart/chart",
+    "pages/me/attention/attention",
+    "pages/me/problem/problem"
   ],
   "window": {
     "backgroundTextStyle": "light",

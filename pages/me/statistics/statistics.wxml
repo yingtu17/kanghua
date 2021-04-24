@@ -1,2 +1,190 @@
-<!--pages/me/statistics/statistics.wxml-->
-<text>pages/me/statistics/statistics.wxml</text>
+<view>
+    <view class="page">
+      <view class="section1">
+        <view class="bd1">
+          <view class="wrap1">
+            <view class="outer2">
+              <navigator url="/pages/me/me"><image
+                class="icon1"
+                referrerpolicy="no-referrer"
+                src="../../../assets/icon_left.png"
+              /></navigator>
+              <text class="txt2">患者任务统计</text>
+            </view>
+            <view class="outer3">
+              <view class="outer4">
+                <text class="word1">04月01日</text>
+                <text class="txt3">开始时间</text>
+                <image
+                  class="icon2"
+                  referrerpolicy="no-referrer"
+                  src="/assets/icon_right.png"
+                />
+                <text class="info1">04月30日</text>
+                <text class="word2">结束时间</text>
+                <image
+                  class="icon3"
+                  referrerpolicy="no-referrer"
+                  src="/assets/icon_right.png"
+                />
+              </view>
+            </view>
+          </view>
+        </view>
+        <text class="info2">本月有任务患者5人，3人完成任务，2人未完成</text>
+        <view class="bd2">
+          <view class="layer1">
+            <view class="layer2"></view>
+            <view class="layer3">
+              <text class="txt4">蒋泽鑫</text>
+              <text class="word3">181 8831 2722</text>
+            </view>
+            <view class="layer4"><text class="info3">关注</text></view>
+            <view class="layer5"><text class="info4">去沟通</text></view>
+          </view>
+          <view class="layer6">
+            <text class="word4">共4天任务，3天未完成</text>
+            <image
+              class="label3"
+              referrerpolicy="no-referrer"
+              src="/assets/undone.png"
+            />
+          </view>
+        </view>
+        <view class="bd2">
+          <view class="layer1">
+            <view class="layer2"></view>
+            <view class="layer3">
+              <text class="txt4">蒋泽鑫</text>
+              <text class="word3">181 8831 2722</text>
+            </view>
+            <view class="layer4"><text class="info3">关注</text></view>
+            <view class="layer5"><text class="info4">去沟通</text></view>
+          </view>
+          <view class="layer6">
+            <text class="word4">共4天任务，3天未完成</text>
+            <image
+              class="label3"
+              referrerpolicy="no-referrer"
+              src="/assets/undone.png"
+            />
+          </view>
+        </view>
+        <view class="bd2">
+          <view class="layer1">
+            <view class="layer2"></view>
+            <view class="layer3">
+              <text class="txt4">蒋泽鑫</text>
+              <text class="word3">181 8831 2722</text>
+            </view>
+            <view class="layer4"><text class="info3">关注</text></view>
+            <view class="layer5"><text class="info4">去沟通</text></view>
+          </view>
+          <view class="layer6">
+            <text class="word4">共4天任务，3天未完成</text>
+            <image
+              class="label3"
+              referrerpolicy="no-referrer"
+              src="/assets/complete.png"
+            />
+          </view>
+        </view>
+        <view class="bd2">
+          <view class="layer1">
+            <view class="layer2"></view>
+            <view class="layer3">
+              <text class="txt4">蒋泽鑫</text>
+              <text class="word3">181 8831 2722</text>
+            </view>
+            <view class="layer4"><text class="info3">关注</text></view>
+            <view class="layer5"><text class="info4">去沟通</text></view>
+          </view>
+          <view class="layer6">
+            <text class="word4">共4天任务，3天未完成</text>
+            <image
+              class="label3"
+              referrerpolicy="no-referrer"
+              src="/assets/complete.png"
+            />
+          </view>
+        </view>
+        <!-- <view class="bd3">
+          <view class="outer5">
+            <view class="main1"></view>
+            <view class="main2">
+              <text class="word5">蒋泽鑫</text>
+              <text class="txt5">181&nbsp;8831&nbsp;2722</text>
+            </view>
+            <button class="main3"><text class="info5">关注</text></button>
+            <view class="main4"><text class="info6">去沟通</text></view>
+          </view>
+          <view class="outer6">
+            <text class="word6">共4天任务，3天未完成</text>
+            <image
+              class="icon4"
+              referrerpolicy="no-referrer"
+              src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng87f3fae2697b6d847bacec5f4b9e26ca9927b32b687b905edeaf335b6f45fe63"
+            />
+          </view>
+        </view>
+        <view class="bd4">
+          <view class="main5">
+            <view class="box1"></view>
+            <view class="box2">
+              <text class="txt6">蒋泽鑫</text>
+              <text class="info7">181&nbsp;8831&nbsp;2722</text>
+            </view>
+            <button class="box3"><text class="word7">关注</text></button>
+            <view class="box4"><text class="txt7">去沟通</text></view>
+          </view>
+          <view class="main6">
+            <text class="txt8">共4天任务，3天未完成</text>
+            <image
+              class="label4"
+              referrerpolicy="no-referrer"
+              src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng6d382458d31e221b227f701a62d42f6aa2c5cd8f07c04da0cea2f5fe74bd4ee2"
+            />
+          </view>
+        </view>
+        <view class="bd5">
+          <view class="wrap2">
+            <view class="bd6"></view>
+            <view class="bd7">
+              <text class="info8">蒋泽鑫</text>
+              <text class="word8">181&nbsp;8831&nbsp;2722</text>
+            </view>
+            <button class="bd8"><text class="word9">关注</text></button>
+            <view class="bd9"><text class="info9">去沟通</text></view>
+          </view>
+          <view class="wrap3">
+            <text class="word10">共4天任务，3天未完成</text>
+            <image
+              class="label5"
+              referrerpolicy="no-referrer"
+              src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng6d382458d31e221b227f701a62d42f6aa2c5cd8f07c04da0cea2f5fe74bd4ee2"
+            />
+          </view>
+        </view>
+        <view class="bd10">
+          <view class="mod1">
+            <view class="layer7"></view>
+            <view class="layer8">
+              <text class="info10">蒋泽鑫</text>
+              <text class="word11">181&nbsp;8831&nbsp;2722</text>
+            </view>
+            <button class="layer9"><text class="word12">关注</text></button>
+            <view class="layer10"><text class="word13">去沟通</text></view>
+          </view>
+          <view class="mod2">
+            <text class="txt9">共4天任务，3天未完成</text>
+            <image
+              class="icon5"
+              referrerpolicy="no-referrer"
+              src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng6d382458d31e221b227f701a62d42f6aa2c5cd8f07c04da0cea2f5fe74bd4ee2"
+            />
+          </view>
+        </view> -->
+      </view>
+    </view>
+
+</view>
