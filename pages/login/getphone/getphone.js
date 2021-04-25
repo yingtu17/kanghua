@@ -1,4 +1,4 @@
-// pages/login/login/login.js
+// pages/login/getphone/getphone.js
 Page({
 
   /**
@@ -63,15 +63,9 @@ Page({
   onShareAppMessage: function () {
 
   },
-  reqLogin: function() {
-    wx.getUserProfile({
-      desc: '用于完善会员资料', // 声明获取用户个人信息后的用途，后续会展示在弹窗中，请谨慎填写
-      success: (res) => {
-        console.log(res);
-        wx.navigateTo({
-          url: '/pages/login/getphone/getphone',
-        })
-      }
-    })
+  getPhoneNumber (e) {
+    console.log(e.detail.errMsg)
+    console.log(e.detail.iv)
+    console.log(e.detail.encryptedData)
   }
 })
