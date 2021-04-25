@@ -16,7 +16,10 @@
     "pages/msg/chat/chat",
     "pages/login/login/login",
     "pages/me/mall/Order/Order",
-    "pages/login/getphone/getphone"
+    "pages/login/getphone/getphone",
+    "pages/me/score/score",
+    "pages/me/shop/detail",
+    "pages/me/highpress/highpress"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -4,7 +4,7 @@
           <navigator url="/pages/me/me"><image
             class="label1"
             referrerpolicy="no-referrer"
-            src="/assets/icon_left.png"
+            src="http://kh.jikeyun.net/img/icon_left.png"
           /></navigator>
           <text class="info2">订单</text>
           <text></text>

@@ -1,6 +1,6 @@
 
 
-<view class="container">
+<view class="page">
       <view class="layer1">
         <view class="bd2">
           <text class="txt1">个人中心</text>
@@ -8,18 +8,18 @@
         <view class="bd3">
           <view class="layer3">
             <view class="mod1">
-              <image class="avatar" src="/assets/avatar.jpg" alt=""></image>
+              <image class="avatar" src="http://kh.jikeyun.net/img/avatar.jpg" alt=""></image>
             </view>
             <view class="mod2">
               <text class="info1">林小彤</text>
               <view class="layer4">
-                <text class="word2">我的积分: 9903</text>
+                <navigator url="/pages/me/score/score"><text class="word2">我的积分: 9903</text></navigator>
               </view>
             </view>
             <image
               class="icon3"
               referrerpolicy="no-referrer"
-              src="/assets/shezhi.png"
+              src="http://kh.jikeyun.net/img/shezhi.png"
             />
           </view>
           <view class="layer7"><text class="info2">要不写点什么吧～</text></view>
@@ -28,13 +28,13 @@
           <image
             class="label1"
             referrerpolicy="no-referrer"
-            src="/assets/yuan.png"
+            src="http://kh.jikeyun.net/img/yuan.png"
           />
           <text class="word4">积分商城</text>
           <image
             class="icon4"
             referrerpolicy="no-referrer"
-            src="/assets/icon_right.png"
+            src="http://kh.jikeyun.net/img/icon_right.png"
           />
         </navigator>
         <view class="bd5"></view>
@@ -42,14 +42,14 @@
           <image
             class="icon5"
             referrerpolicy="no-referrer"
-            src="/assets/t2.png"
+            src="http://kh.jikeyun.net/img/t2.png"
           />
           <text class="word5">家人绑定</text>
           <text class="word6">3</text>
           <image
             class="icon6"
             referrerpolicy="no-referrer"
-            src="/assets/icon_right.png"
+            src="http://kh.jikeyun.net/img/icon_right.png"
           />
         </view>
         <view class="bd7"></view>
@@ -57,13 +57,13 @@
           <image
             class="label2"
             referrerpolicy="no-referrer"
-            src="/assets/tanhao.png"
+            src="http://kh.jikeyun.net/img/tanhao.png"
           />
           <text class="info3">常见问题</text>
           <image
             class="icon7"
             referrerpolicy="no-referrer"
-            src="/assets/icon_right.png"
+            src="http://kh.jikeyun.net/img/icon_right.png"
           />
         </view>
         <view class="bd9"></view>
@@ -71,32 +71,37 @@
           <image
             class="label3"
             referrerpolicy="no-referrer"
-            src="/assets/Smiley.png"
+            src="http://kh.jikeyun.net/img/Smiley.png"
           />
           <text class="info4">在线客服</text>
           <image
             class="label4"
             referrerpolicy="no-referrer"
-            src="/assets/icon_right.png"
+            src="http://kh.jikeyun.net/img/icon_right.png"
           />
         </view>
         <view class="bd11"></view>
+        <navigator url="/pages/me/highpress/highpress">
         <view class="bd12">
           <image
             class="label5"
             referrerpolicy="no-referrer"
-            src="/assets/xueya.png"
+            src="http://kh.jikeyun.net/img/xueya.png"
           />
           <text class="word7">关于高血压管理</text>
           <image
             class="icon8"
             referrerpolicy="no-referrer"
-            src="/assets/icon_right.png"
+            src="http://kh.jikeyun.net/img/icon_right.png"
           />
         </view>
-        <view class="bd13">
-        </view>
+      </navigator>
+        <!-- <view class="bd13">
+        </view> -->
+        
       </view>
       <view class="layer8"></view>
       <view class="layer10"></view>
+      <tabbar mineActive="true"></tabbar>
     </view>
+    

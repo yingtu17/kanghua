@@ -1,10 +1,9 @@
-.container {
+.page {
   z-index: 1;
   position: relative;
   width: 375px;
-  height: 812px;
+  padding-top: 10px;
   background-color: rgba(255, 255, 255, 1);
-  overflow: hidden;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -15,7 +14,6 @@
 .layer1 {
   z-index: auto;
   width: 375px;
-  height: 798px;
   display: flex;
   flex-direction: column;
 }
@@ -500,7 +498,6 @@
   background-color: rgba(255, 255, 255, 1);
   box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.05);
   align-self: center;
-  margin-top: 231px;
   width: 375px;
   display: flex;
   flex-direction: column;
@@ -620,7 +617,7 @@
   z-index: 77;
   position: absolute;
   left: 70px;
-  top: 173px;
+  top: 150px;
   width: 14px;
   height: 14px;
   border-radius: 6px;
@@ -649,7 +646,7 @@
   z-index: 78;
   position: absolute;
   left: 73px;
-  top: 176px;
+  top: 150px;
   width: 9px;
   height: 10px;
   background-image: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng81a330910720ab2f96ed854139027856ed730386fd67f7bed27e60dc5edb6e27);

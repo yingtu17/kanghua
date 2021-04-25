@@ -1,4 +1,4 @@
-// pages/me/PointsMall/PointsMall.js
+// pages/me/highpress/highpress.js
 Page({
 
   /**
@@ -62,10 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  opendetail: function(){
-    wx.navigateTo({
-      url: '/pages/me/shop/detail'
-    })
   }
 })

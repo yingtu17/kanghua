@@ -74,6 +74,11 @@ view {
   justify-content: center;
   margin-top: auto;
 }
+.p-btn navigator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .p-btn-text {
   font-size: 11px;
@@ -116,17 +121,20 @@ view {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 
 .check-date-date {
   font-size: 12px;
   font-family: PingFangSC-Medium, PingFang SC;
-  font-weight: 500;
+  font-weight: 800;
   color: #FFFFFF;
   line-height: 17px;
 }
-
+.mid-title {
+  font-weight: 800;
+}
 .check-date image {
   width: 72rpx;
   height: 72rpx;
@@ -159,7 +167,7 @@ view {
 .check-date-last .check-date-date {
   font-size: 12px;
   font-family: PingFangSC-Medium, PingFang SC;
-  font-weight: 500;
+  font-weight: 800;
   color: #333333;
   line-height: 17px;
 }
@@ -167,7 +175,7 @@ view {
 .check-date-last .check-date-score {
   font-size: 10px;
   font-family: DIN-Medium, DIN;
-  font-weight: 500;
+  font-weight: 800;
   color: #999999;
   line-height: 12px;
 }
@@ -200,7 +208,7 @@ view {
 .bot-text1 {
   font-size: 16px;
   font-family: PingFangSC-Medium, PingFang SC;
-  font-weight: 500;
+  font-weight: 800;
   color: #333333;
   line-height: 22px;
 }
@@ -244,7 +252,7 @@ view {
 .task-text1 {
   font-size: 14px;
   font-family: PingFangSC-Medium, PingFang SC;
-  font-weight: 500;
+  font-weight: 800;
   color: #333333;
   line-height: 20px;
 }
@@ -252,8 +260,9 @@ view {
 .task-text2 {
   font-size: 16px;
   font-family: DIN-Medium, DIN;
-  font-weight: 500;
+  font-weight: 700;
   color: #333333;
+  margin-top: 2px;
   line-height: 19px;
 }
 
@@ -261,6 +270,8 @@ view {
   font-size: 12px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
+  margin-top: 8px;
+  margin-bottom: 4px;
   color: #999999;
   line-height: 17px;
 }
@@ -275,7 +286,7 @@ view {
 
 .task-btn {
   position: absolute;
-  right: 40rpx;
+  right: 0;
   top: 0;
   width: 144rpx;
   height: 58rpx;
@@ -340,7 +351,7 @@ view {
 .end-title {
   font-size: 16px;
   font-family: PingFangSC-Medium, PingFang SC;
-  font-weight: 500;
+  font-weight: 800;
   color: #333333;
   line-height: 22px;
 }
@@ -357,14 +368,14 @@ position: relative;
 .manager-name {
   font-size: 21px;
   font-family: PingFangSC-Medium, PingFang SC;
-  font-weight: 500;
+  font-weight: 800;
   color: #333333;
   line-height: 29px;
 }
 .manager-time {
 font-size: 12px;
 font-family: PingFangSC-Medium, PingFang SC;
-font-weight: 500;
+font-weight: 800;
 color: #333333;
 line-height: 17px;
 margin-bottom: 56rpx;
@@ -372,7 +383,7 @@ margin-bottom: 56rpx;
 .manager-phone {
 font-size: 14px;
 font-family: PingFangSC-Medium, PingFang SC;
-font-weight: 500;
+font-weight: 800;
 color: #333333;
 line-height: 20px;
 }

@@ -1,0 +1,82 @@
+<view class="shop-page">
+  <view class="shop-img">
+    <image src="http://kh.jikeyun.net/img/pic@2x.png"></image>
+  </view>
+  <view class="shop-detail">
+    <view class="shop-money">
+      <text>￥ </text>
+      <text> 99 </text>
+      <text>积分</text>
+    </view>
+    <view class="shop-desc">
+      <text>阿迪达斯官网 三叶草 SUPERSTAR 男女 贝壳头经典运动鞋 EG4958</text>
+    </view>
+    <view class="shop-prop" bindtap="selectprop">
+      <text>已选</text>
+      <text>XXL（43-44），0.24kg，1件</text>
+      <image src="http://kh.jikeyun.net/img/2@2x.png"></image>
+    </view>
+  </view>
+  <view class="shop-info">
+    <image src="http://kh.jikeyun.net/img/pic2.png"></image>
+  </view>
+  <view class="shop-action">
+    <text class="action-price">8000积分</text>
+    <view class="buy">
+      <text>立即兑换</text>
+    </view>
+  </view>
+</view>
+<view class="back-action">
+  <navigator delta="1" open-type="navigateBack">
+    <image src="http://kh.jikeyun.net/img/back-action.png"></image>
+  </navigator>
+</view>
+<view class="selectprop-box" wx:if="{{isselectprop == true}}" catchtouchmove="preventTouchMove">
+  <view class="cover" bindtap="closecover"></view>
+  <view class="select-content">
+    <view class="select-desc">
+      <view class="desc-img">
+        <image src="http://kh.jikeyun.net/img/pic@2x.png"></image>
+      </view>
+      <view class="select-texts">
+        <text>阿迪达斯官网 三叶草 SUPERSTAR 男女 贝壳头经…</text>
+        <view>
+          <text>289 </text>
+          <text>积分</text>
+        </view>
+        <text>库存: 999</text>
+      </view>
+    </view>
+    <view class="color-title">颜色</view>
+    <view class="select-colors">
+      <view class="color">
+        <text>S（35-36）</text>
+      </view>
+      <view class="color">
+        <text>S（35-36）</text>
+      </view>
+      <view class="color">
+        <text>S（35-36）</text>
+      </view>
+      <view class="color">
+        <text>S（35-36）</text>
+      </view>
+      <view class="color">
+        <text>S（35-36）</text>
+      </view>
+      <view class="color">
+        <text>S（35-36）</text>
+      </view>
+    </view>
+    <view class="quantity">
+      <text>数量</text>
+      <view class="quan-action">
+        <image src="http://kh.jikeyun.net/img/minus.png"></image>
+        <text> 2 </text>
+        <image src="http://kh.jikeyun.net/img/plus.png"></image>
+      </view>
+    </view>
+  </view>
+
+</view>
