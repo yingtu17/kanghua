@@ -6,7 +6,7 @@
             <navigator url="/pages/me/me"><image
               class="icon2"
               referrerpolicy="no-referrer"
-              src="/assets/icon_left.png"
+              src="http://kh.jikeyun.net/img/icon_left.png"
             /></navigator>
             <text class="txt1">被管理列表</text>
           </view>

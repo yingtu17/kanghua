@@ -7,7 +7,7 @@
               <navigator url="/pages/me/me"><image
                 class="icon1"
                 referrerpolicy="no-referrer"
-                src="../../../assets/icon_left.png"
+                src="http://kh.jikeyun.net/img/icon_left.png"
               /></navigator>
               <text class="txt2">患者任务统计</text>
             </view>
@@ -18,14 +18,14 @@
                 <image
                   class="icon2"
                   referrerpolicy="no-referrer"
-                  src="/assets/icon_right.png"
+                  src="http://kh.jikeyun.net/img/icon_right.png"
                 />
                 <text class="info1">04月30日</text>
                 <text class="word2">结束时间</text>
                 <image
                   class="icon3"
                   referrerpolicy="no-referrer"
-                  src="/assets/icon_right.png"
+                  src="http://kh.jikeyun.net/img/icon_right.png"
                 />
               </view>
             </view>
@@ -47,7 +47,7 @@
             <image
               class="label3"
               referrerpolicy="no-referrer"
-              src="/assets/undone.png"
+              src="http://kh.jikeyun.net/img/undone.png"
             />
           </view>
         </view>
@@ -66,7 +66,7 @@
             <image
               class="label3"
               referrerpolicy="no-referrer"
-              src="/assets/undone.png"
+              src="http://kh.jikeyun.net/img/undone.png"
             />
           </view>
         </view>
@@ -85,7 +85,7 @@
             <image
               class="label3"
               referrerpolicy="no-referrer"
-              src="/assets/complete.png"
+              src="http://kh.jikeyun.net/img/complete.png"
             />
           </view>
         </view>
@@ -104,7 +104,7 @@
             <image
               class="label3"
               referrerpolicy="no-referrer"
-              src="/assets/complete.png"
+              src="http://kh.jikeyun.net/img/complete.png"
             />
           </view>
         </view>

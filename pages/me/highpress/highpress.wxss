@@ -1,0 +1,37 @@
+.page-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  height: 72px;
+  width: 100%;
+}
+.page-title text {
+  margin-right: auto;
+  margin-bottom: 21px;
+}
+.page-title navigator {
+  width: 8px;
+  height: 15px;
+  margin-right: auto;
+  margin-bottom: 21px;
+  position: relative;
+  left: 20px;
+}
+.page-title image {
+  width: 8px;
+  height: 15px;
+}
+.text-box {
+  width: 92%;
+font-size: 15px;
+font-family: PingFangSC-Medium, PingFang SC;
+font-weight: 500;
+color: #282828;
+line-height: 21px;
+margin: 0 auto;
+}
+.text-tile {
+  font-size: 16px;
+  font-weight: 800;
+}

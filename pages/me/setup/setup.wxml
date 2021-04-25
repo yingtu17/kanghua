@@ -5,7 +5,7 @@
           <navigator url="/pages/me/me"><image
             class="label2"
             referrerpolicy="no-referrer"
-            src="../../../assets/icon_left.png"
+            src="http://kh.jikeyun.net/img/icon_left.png"
           /></navigator>
           <span class="txt1">个人设置</span>
         </view>
@@ -14,7 +14,7 @@
           <image
             class="icon2"
             referrerpolicy="no-referrer"
-            src="../../../assets/icon_right.png"
+            src="http://kh.jikeyun.net/img/icon_right.png"
           />
         </view>
         <view class="layer4"></view>
@@ -23,7 +23,7 @@
           <image
             class="label3"
             referrerpolicy="no-referrer"
-            src="../../../assets/icon_right.png"
+            src="http://kh.jikeyun.net/img/icon_right.png"
           />
         </view>
         <view class="layer6"></view>

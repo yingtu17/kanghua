@@ -1,0 +1,44 @@
+<view class="page">
+  <view class="section1">
+    <view class="mod1">
+      <view class="box1">
+        <view class="section2">
+          <text class="word1">当前账户积分</text>
+          <text class="word2">700</text>
+        </view>
+      </view>
+    </view>
+    <view class="mod2">
+      <view class="layer1">
+        <text class="word3">本月获取</text>
+        <text class="txt1"> 315 </text>
+        <text class="word5"> 使用 </text>
+        <text class="info2"> -200</text>
+      </view>
+    </view>
+    <view class="socre-record">
+      <view class="mod3">
+        <text class="word6">商城消费</text>
+        <text class="word7">-18.88积分</text>
+      </view>
+      <view class="mod4">
+        <text class="word8">2020-06-10 22:22:30</text>
+        <text class="info3">当前积分：3243</text>
+      </view>
+    </view>
+    <view class="socre-record">
+      <view class="mod3">
+        <text class="word6">商城消费</text>
+        <text class="word7">-18.88积分</text>
+      </view>
+      <view class="mod4">
+        <text class="word8">2020-06-10 22:22:30</text>
+        <text class="info3">当前积分：3243</text>
+      </view>
+    </view>
+  </view>
+  <view class="section5">
+    <navigator delta="1" open-type="navigateBack" class="back-icon"><image src="http://kh.jikeyun.net/img/icon_left.png"></image></navigator>
+    <text>积分明细</text>
+  </view>
+</view>

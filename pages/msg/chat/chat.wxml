@@ -1,5 +1,6 @@
 <view class="page-chat">
   <view class="page-title">
+    <navigator delta="1" open-type="navigateBack"><image src="http://kh.jikeyun.net/img/icon_left.png"></image></navigator>
     <text>周楠</text>
   </view>
   <view class="chat-body">
@@ -8,7 +9,7 @@
     </view>
     <view class="rec-msg">
       <view class="chat-avatar">
-        <image src="/assets/avatar.jpg"></image>
+        <image src="http://kh.jikeyun.net/img/avatar.jpg"></image>
       </view>
       <view class="chat">
         <text>亲，免费送你“萌萌仙小玩”聊天气泡，有效期7天</text>
@@ -16,7 +17,7 @@
     </view>
     <view class="sent-msg">
       <view class="sent-avatar">
-        <image src="/assets/avatar.jpg"></image>
+        <image src="http://kh.jikeyun.net/img/avatar.jpg"></image>
       </view>
       <view class="sent-chat">
         <text>谢谢。</text>
@@ -25,8 +26,8 @@
     </view>
   </view>
   <view class="chat-form">
-    <image src="/assets/yuyin@2x.png" class="voice"></image>
+    <image src="http://kh.jikeyun.net/img/yuyin@2x.png" class="voice"></image>
     <input type="text" class="typein"/>
-    <image src="/assets/zengjia@2x.png" class="more"></image>
+    <image src="http://kh.jikeyun.net/img/zengjia@2x.png" class="more"></image>
   </view>
 </view>

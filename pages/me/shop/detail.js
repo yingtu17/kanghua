@@ -1,11 +1,11 @@
-// pages/me/PointsMall/PointsMall.js
+// pages/me/shop/detail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    isselectprop: false
   },
 
   /**
@@ -63,9 +63,14 @@ Page({
   onShareAppMessage: function () {
 
   },
-  opendetail: function(){
-    wx.navigateTo({
-      url: '/pages/me/shop/detail'
+  selectprop: function(){
+    this.setData({
+      isselectprop: true
+    })
+  },
+  closecover: function(){
+    this.setData({
+      isselectprop: false
     })
   }
 })

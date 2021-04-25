@@ -1,20 +1,26 @@
 <view class="tabbar">
-  <navigator class="navigator">
+  <navigator class="navigator" url="/pages/index/index">
     <view class="index-tab">
-      <image src="../../../assets/hushi.png" class="tab-img"></image>
-      <text class="tab-text tab-active">主页</text>
+      <image wx:if="{{indexActive === true}}" src="http://kh.jikeyun.net/img/hushi.png" class="tab-img"></image>
+      <image wx:else src="http://kh.jikeyun.net/img/nohushi.png" class="tab-img"></image>
+      <text wx:if="{{indexActive === true}}" class="tab-text tab-active">主页</text>
+      <text wx:else class="tab-text">主页</text>
     </view>
   </navigator>
   <navigator class="navigator" url="/pages/msg/messages/message">
     <view class="msg-tab">
-      <image src="../../../assets/xiaoxi.png" class="tab-img"></image>
-      <text class="tab-text">消息</text>
+      <image wx:if="{{msgActive === true}}" src="http://kh.jikeyun.net/img/xiaoxiact.png" class="tab-img"></image>
+      <image wx:else src="http://kh.jikeyun.net/img/xiaoxi.png" class="tab-img"></image>
+      <text wx:if="{{msgActive === true}}" class="tab-text tab-active">消息</text>
+      <text wx:else class="tab-text">消息</text>
     </view>
   </navigator>
   <navigator url="/pages/me/me" class="navigator">
     <view class="me-tab">
-      <image src="../../../assets/haoping.png" class="tab-img"></image>
-      <text class="tab-text">我的</text>
+      <image wx:if="{{mineActive === true}}" src="http://kh.jikeyun.net/img/haopingact.png" class="tab-img"></image>
+      <image wx:else src="http://kh.jikeyun.net/img/haoping.png" class="tab-img"></image>
+      <text class="tab-text tab-active" wx:if="{{mineActive === true}}">我的</text>
+      <text wx:else class="tab-text">我的</text>
     </view>
   </navigator>
 </view>

@@ -2,19 +2,19 @@
     <view class="page">
       <view class="bd1">
         <view class="bd3">
-          <navigator url="/pages/me/me"><image
+          <navigator delta="1" open-type="navigateBack"><image
             class="label1"
             referrerpolicy="no-referrer"
-            src="/assets/icon_left.png"
+            src="http://kh.jikeyun.net/img/icon_left.png"
           /></navigator>
           <text class="info2">积分商城</text>
         </view>
         <view class="bd4">
-          <view class="layer1"><image src="/assets/Figure.png" alt=""></image></view>
+          <view class="layer1"><image src="http://kh.jikeyun.net/img/Figure.png" alt=""></image></view>
         </view>
         <text class="txt1">积分商品</text>
-        <view class="bd5">
-          <image class="mall-image" src="/assets/product.png" alt=""></image>
+        <view class="bd5" bindtap="opendetail">
+          <image class="mall-image" src="http://kh.jikeyun.net/img/product.png" alt=""></image>
           <view class="mall-box">
             <text class="mall-text">阿迪达斯官网 三叶草SUPERSTAR 男女
             贝壳头经典运动鞋 EG4958…</text>
@@ -40,7 +40,7 @@
             <image
             class="label2"
             referrerpolicy="no-referrer"
-            src="/assets/shouye.png"
+            src="http://kh.jikeyun.net/img/shouye.png"
           />
             <text class="word8">首页</text>
           </navigator>
@@ -48,7 +48,7 @@
             <image
             class="label2"
             referrerpolicy="no-referrer"
-            src="/assets/dingdan.png"
+            src="http://kh.jikeyun.net/img/dingdan.png"
           />
             <text class="txt7">订单</text>
           </navigator>
@@ -56,7 +56,7 @@
             <image
             class="label2"
             referrerpolicy="no-referrer"
-            src="/assets/qupiao.png"
+            src="http://kh.jikeyun.net/img/qupiao.png"
           />
             <text class="txt8">明细</text>
           </view>
