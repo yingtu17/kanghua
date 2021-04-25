@@ -52,6 +52,7 @@
           />
             <text class="txt7">订单</text>
           </navigator>
+          <navigator url="/pages/me/score/score">
           <view>
             <image
             class="label2"
@@ -60,6 +61,7 @@
           />
             <text class="txt8">明细</text>
           </view>
+        </navigator>
         </view>
       </view>
     </view>

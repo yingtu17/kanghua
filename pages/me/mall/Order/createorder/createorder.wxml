@@ -1,0 +1,76 @@
+<view class="page">
+    <view class="block1">
+      <view class="mod1">
+        <view class="box1">
+          <view class="box3">
+            <image
+              class="label2"
+              referrerpolicy="no-referrer"
+              src="http://kh.jikeyun.net/img/icon_left.png"
+            />
+            <span class="info1">确定订单</span>
+            <img
+              class="pic1"
+              referrerpolicy="no-referrer"
+              src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng802d45b6f75ec40d02fd91edc371443bf4cd1065b69b57eacbee9d960275705c"
+            />
+          </view>
+          <view class="box4">
+            <span class="word2">张金华</span>
+            <span class="info2">10019982019</span>
+          </view>
+          <view class="box5">
+            <span class="paragraph1">
+              北京市 朝阳区三里屯北路19号三里屯太古里北区N8楼
+              <br />
+              一层
+            </span>
+            <image
+              class="label3"
+              referrerpolicy="no-referrer"
+              src="http://kh.jikeyun.net/img/icon_right.png"
+            />
+          </view>
+          <view class="box6">
+            <view class="wrap1"></view>
+            <view class="wrap2"></view>
+            <view class="wrap3"></view>
+            <view class="wrap4"></view>
+            <view class="wrap5"></view>
+            <view class="wrap6"></view>
+            <view class="wrap7"></view>
+            <view class="wrap8"></view>
+            <view class="wrap9"></view>
+            <view class="wrap10"></view>
+            <view class="wrap11"></view>
+            <view class="wrap12"></view>
+          </view>
+        </view>
+      </view>
+      <image src="http://kh.jikeyun.net/img/line.png" class="line"></image>
+      <view class="item">
+        <view class="img-box">
+          <image src="http://kh.jikeyun.net/img/pic@2x.png"></image>
+        </view>
+        <view>
+          <view class="item-texts">
+            <text class="">阿迪达斯官网 三叶草SUPERSTAR 男女贝壳头经典运动鞋 EG4958…</text>
+            <text>红色  39码</text>
+            <view>
+              <text>99</text>
+              <text>积分</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="actionbar">
+        <view class="money">
+          <text>6594</text>
+          <text>积分</text>
+        </view>
+        <view class="sub-action">
+          <text>提交订单</text>
+        </view>
+      </view>
+    </view>
+  </view>

@@ -19,7 +19,8 @@
     "pages/login/getphone/getphone",
     "pages/me/score/score",
     "pages/me/shop/detail",
-    "pages/me/highpress/highpress"
+    "pages/me/highpress/highpress",
+    "pages/me/mall/Order/createorder/createorder"
   ],
   "window": {
     "backgroundTextStyle": "light",

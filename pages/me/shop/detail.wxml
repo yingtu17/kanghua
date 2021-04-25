@@ -22,9 +22,11 @@
   </view>
   <view class="shop-action">
     <text class="action-price">8000积分</text>
-    <view class="buy">
+    <navigator url="/pages/me/mall/Order/createorder/createorder">
+      <view class="buy">
       <text>立即兑换</text>
     </view>
+    </navigator>
   </view>
 </view>
 <view class="back-action">
