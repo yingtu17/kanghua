@@ -38,6 +38,7 @@
     </view>
   </view>
   <view class="section5">
+    <navigator delta="1" open-type="navigateBack" class="back-icon"><image src="http://kh.jikeyun.net/img/icon_left.png"></image></navigator>
     <text>积分明细</text>
   </view>
 </view>

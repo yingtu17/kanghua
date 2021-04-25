@@ -1,5 +1,6 @@
 <view class="page-chat">
   <view class="page-title">
+    <navigator delta="1" open-type="navigateBack"><image src="http://kh.jikeyun.net/img/icon_left.png"></image></navigator>
     <text>周楠</text>
   </view>
   <view class="chat-body">

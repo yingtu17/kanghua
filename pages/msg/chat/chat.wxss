@@ -13,11 +13,24 @@
   justify-content: center;
   align-items: flex-end;
   flex-grow: 1;
-
+}
+.page-title navigator {
+  width: 9px;
+height: 15px;
+margin-right: auto;
+position: relative;
+left: 15px;
+margin-bottom: 15px;
+}
+.page-title image {
+  width: 9px;
+  height: 15px;
 }
 
 .page-title text {
   margin-bottom: 11px;
+  margin-right: auto;
+
 }
 
 .chat-body {

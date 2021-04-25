@@ -718,3 +718,12 @@
 .socre-record {
   margin-bottom: 15px;
 }
+.section5 image {
+  width: 9px;
+  height: 15px;
+}
+.back-icon {
+  position: absolute;
+  top: 36px;
+  left: 18px;
+}
