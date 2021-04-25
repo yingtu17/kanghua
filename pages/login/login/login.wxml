@@ -19,6 +19,6 @@
       <span class="word3">
         根据平台方相关要求，请在微信授权后使用康华君泰小程序管理您的血压健康。
       </span>
-      <button class="bd4" open-type="getUserInfo">微信授权登录</button>
+      <button class="bd4" open-type="getUserInfo" bindtap="reqLogin">微信授权登录</button>
     </div>
   </div>

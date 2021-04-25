@@ -24,7 +24,7 @@
           </view>
           <view class="layer7"><text class="info2">要不写点什么吧～</text></view>
         </view>
-        <navigator url="/pages/me/PointsMall/PointsMall" class="bd4">
+        <navigator url="/pages/me/mall/PointsMall/PointsMall" class="bd4">
           <image
             class="label1"
             referrerpolicy="no-referrer"

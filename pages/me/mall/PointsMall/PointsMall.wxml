@@ -2,11 +2,11 @@
     <view class="page">
       <view class="bd1">
         <view class="bd3">
-          <image
+          <navigator url="/pages/me/me"><image
             class="label1"
             referrerpolicy="no-referrer"
             src="/assets/icon_left.png"
-          />
+          /></navigator>
           <text class="info2">积分商城</text>
         </view>
         <view class="bd4">
@@ -36,7 +36,7 @@
       </view>
       <view class="bd12">
         <view class="bd14">
-          <navigator url="/pages/me/PointsMall/PointsMall">
+          <navigator url="/pages/me/mall/PointsMall/PointsMall">
             <image
             class="label2"
             referrerpolicy="no-referrer"
@@ -44,14 +44,14 @@
           />
             <text class="word8">首页</text>
           </navigator>
-          <view>
+          <navigator url="/pages/me/mall/Order/Order">
             <image
             class="label2"
             referrerpolicy="no-referrer"
             src="/assets/dingdan.png"
           />
             <text class="txt7">订单</text>
-          </view>
+          </navigator>
           <view>
             <image
             class="label2"

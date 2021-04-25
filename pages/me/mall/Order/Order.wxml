@@ -1,0 +1,21 @@
+<view class="page">
+      <view class="bd1">
+        <view class="bd3">
+          <navigator url="/pages/me/me"><image
+            class="label1"
+            referrerpolicy="no-referrer"
+            src="/assets/icon_left.png"
+          /></navigator>
+          <text class="info2">订单</text>
+          <text></text>
+        </view>
+        <view class="layer2">
+          <view class="section1">
+            <text class="txt1">全部</text>
+            <text class="word2">待发货</text>
+            <text class="info222">已发货</text>
+          </view>
+          <view class="section2"><view class="main1"></view></view>
+        </view>
+      </view>
+</view>
