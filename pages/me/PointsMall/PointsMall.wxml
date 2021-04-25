@@ -1,0 +1,65 @@
+
+    <view class="page">
+      <view class="bd1">
+        <view class="bd3">
+          <image
+            class="label1"
+            referrerpolicy="no-referrer"
+            src="/assets/icon_left.png"
+          />
+          <text class="info2">积分商城</text>
+        </view>
+        <view class="bd4">
+          <view class="layer1"><image src="/assets/Figure.png" alt=""></image></view>
+        </view>
+        <text class="txt1">积分商品</text>
+        <view class="bd5">
+          <image class="mall-image" src="/assets/product.png" alt=""></image>
+          <view class="mall-box">
+            <text class="mall-text">阿迪达斯官网 三叶草SUPERSTAR 男女
+            贝壳头经典运动鞋 EG4958…</text>
+            <view class="mall-Promotion">
+              <view class="yuan">
+                <text class="yuan-text">0元购</text>
+              </view>
+              <view class="Promotion">
+                <text class="Promotion-text">促销打折</text>
+              </view>
+            </view>
+            <view class="integral">
+              <text class="integral-1">¥</text>
+              <text class="integral-2">25</text>
+              <text class="integral-3">积分</text>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="bd12">
+        <view class="bd14">
+          <navigator url="/pages/me/PointsMall/PointsMall">
+            <image
+            class="label2"
+            referrerpolicy="no-referrer"
+            src="/assets/shouye.png"
+          />
+            <text class="word8">首页</text>
+          </navigator>
+          <view>
+            <image
+            class="label2"
+            referrerpolicy="no-referrer"
+            src="/assets/dingdan.png"
+          />
+            <text class="txt7">订单</text>
+          </view>
+          <view>
+            <image
+            class="label2"
+            referrerpolicy="no-referrer"
+            src="/assets/qupiao.png"
+          />
+            <text class="txt8">明细</text>
+          </view>
+        </view>
+      </view>
+    </view>
