@@ -11,7 +11,9 @@
     "pages/msg/messages/message",
     "pages/index/chart/chart",
     "pages/me/attention/attention",
-    "pages/me/problem/problem"
+    "pages/me/problem/problem",
+    "pages/msg/chat/chat",
+    "pages/login/login/login"
   ],
   "window": {
     "backgroundTextStyle": "light",

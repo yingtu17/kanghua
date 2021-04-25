@@ -1,4 +1,4 @@
-// pages/msg/messages/message.js
+// pages/login/login/login.js
 Page({
 
   /**
@@ -63,9 +63,17 @@ Page({
   onShareAppMessage: function () {
 
   },
-  openchat: function() {
-    wx.navigateTo({
-      url: '/pages/msg/chat/chat'
+  reqLogin: function() {
+    wx.getUserProfile()
+    wx.login({
+      success (res) {
+        if (res.code) {
+          //发起网络请求
+          console.log(res)
+        } else {
+          console.log('登录失败！' + res.errMsg)
+        }
+      }
     })
   }
 })
