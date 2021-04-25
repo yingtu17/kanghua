@@ -353,6 +353,126 @@ order-page3 {
   padding: 4px 9px;
 }
 
+.bd12 {
+  z-index: 108;
+  height: 76px;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0px -1px 0px 0px rgba(0, 0, 0, 0.05);
+  width: 375px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.bd13 {
+  z-index: auto;
+  width: 285px;
+  height: 23px;
+  margin-left: 46px;
+  margin-top: 6px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section6 {
+  z-index: 115;
+  width: 22px;
+  height: 22px;
+  background-image: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng76c214903cd2781061009cd7bfd2a7b1316f779f92c1e68e46185e2eef861070);
+  background-repeat: no-repeat;
+  background-position: -0.7906249999999773px -0.4262499999999818px;
+  margin-top: 1px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.section7 {
+  z-index: 126;
+  width: 20px;
+  height: 22px;
+  background-image: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngf849610a8a7ed466d2772bece3718e7c77b40c152b706187db33254877771b6d);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.label2 {
+  z-index: 119;
+  width: 22px;
+  height: 22px;
+}
+
+.bd14 {
+  z-index: auto;
+  width: 283px;
+  height: 14px;
+  margin-left: 46px;
+  margin-top: 8px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+
+.word8 {
+  z-index: 109;
+  width: 20px;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(0, 131, 133, 1);
+  font-size: 10px;
+  letter-spacing: -0.2631577253341675px;
+  font-family: PingFangSC-Regular;
+  line-height: 14px;
+  text-align: left;
+}
+
+.txt7 {
+  z-index: 113;
+  width: 20px;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(171, 176, 193, 1);
+  font-size: 10px;
+  letter-spacing: -0.2631577253341675px;
+  font-family: PingFangSC-Regular;
+  line-height: 14px;
+  text-align: left;
+}
+
+.txt8 {
+  z-index: 112;
+  width: 20px;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(153, 153, 153, 1);
+  font-size: 10px;
+  letter-spacing: -0.2631577253341675px;
+  font-family: PingFangSC-Regular;
+  line-height: 14px;
+  text-align: left;
+}
+
+.bd15 {
+  z-index: auto;
+  width: 134px;
+  height: 5px;
+  margin-left: 120px;
+  margin-top: 18px;
+  flex-direction: row;
+  display: flex;
+}
+
+.pic4 {
+  z-index: 110;
+  width: 134px;
+  height: 5px;
+}
 
 
 

@@ -80,4 +80,32 @@
         </view>
         
       </view>
+      <view class="bd12">
+        <view class="bd14">
+          <navigator url="/pages/me/mall/PointsMall/PointsMall">
+            <image
+            class="label2"
+            referrerpolicy="no-referrer"
+            src="http://kh.jikeyun.net/img/shouye.png"
+          />
+            <text class="word8">首页</text>
+          </navigator>
+          <navigator url="/pages/me/mall/Order/Order">
+            <image
+            class="label2"
+            referrerpolicy="no-referrer"
+            src="http://kh.jikeyun.net/img/dingdan.png"
+          />
+            <text class="txt7">订单</text>
+          </navigator>
+          <view>
+            <image
+            class="label2"
+            referrerpolicy="no-referrer"
+            src="http://kh.jikeyun.net/img/qupiao.png"
+          />
+            <text class="txt8">明细</text>
+          </view>
+        </view>
+      </view>
 </view>
