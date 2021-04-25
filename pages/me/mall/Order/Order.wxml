@@ -24,7 +24,7 @@
             <text class="order-text2">已发货，待确认收货</text>
           </view>
           <view class="order-page2">
-            <image class="order-image" src="/assets/product.png" alt=""></image>
+            <image class="order-image" src="http://kh.jikeyun.net/img/product.png" alt=""></image>
             <view class="order-page3">
               <text class="order-text3">阿迪达斯官网 三叶草SUPERSTAR 男女贝
               壳头经典运动鞋 EG4958…</text>
@@ -55,7 +55,7 @@
             <text class="order-text2">已发货，待确认收货</text>
           </view>
           <view class="order-page2">
-            <image class="order-image" src="/assets/product.png" alt=""></image>
+            <image class="order-image" src="http://kh.jikeyun.net/img/product.png" alt=""></image>
             <view class="order-page3">
               <text class="order-text3">阿迪达斯官网 三叶草SUPERSTAR 男女贝
               壳头经典运动鞋 EG4958…</text>
@@ -86,7 +86,7 @@
             <image
             class="label2"
             referrerpolicy="no-referrer"
-            src="http://kh.jikeyun.net/img/shouye.png"
+            src="/assets/shouye.png"
           />
             <text class="word8">首页</text>
           </navigator>
@@ -94,7 +94,7 @@
             <image
             class="label2"
             referrerpolicy="no-referrer"
-            src="http://kh.jikeyun.net/img/dingdan.png"
+            src="/assets/dingdan.png"
           />
             <text class="txt7">订单</text>
           </navigator>

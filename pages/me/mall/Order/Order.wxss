@@ -424,7 +424,7 @@ order-page3 {
   width: 20px;
   display: block;
   overflow-wrap: break-word;
-  color: rgba(0, 131, 133, 1);
+  color: rgba(171, 176, 193, 1);
   font-size: 10px;
   letter-spacing: -0.2631577253341675px;
   font-family: PingFangSC-Regular;
@@ -437,7 +437,7 @@ order-page3 {
   width: 20px;
   display: block;
   overflow-wrap: break-word;
-  color: rgba(171, 176, 193, 1);
+  color: rgba(0, 131, 133, 1);
   font-size: 10px;
   letter-spacing: -0.2631577253341675px;
   font-family: PingFangSC-Regular;

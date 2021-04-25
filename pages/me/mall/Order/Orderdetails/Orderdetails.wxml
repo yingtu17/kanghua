@@ -4,33 +4,68 @@
           <navigator url="/pages/me/me"><image
             class="label1"
             referrerpolicy="no-referrer"
-            src="/assets/icon_left.png"
+            src="http://kh.jikeyun.net/img/icon_left.png"
           /></navigator>
           <text class="info2">订单</text>
-          <text></text>
         </view>
-        <view class="mod4">
-        <view class="group3">
-          <view class="box9">
-            <image src="/assets/dingwei.png" alt=""></image>
+        <view class="Receipt">
+          <view class="Receipt-box">
+            <image class="Receipt-image" src="/assets/fahuo.png"></image>
+            <text class="Receipt-text">待收货</text>
           </view>
-          <text class="info3">待收货</text>
         </view>
-      </view>
-      <div class="mod3">
-        <div class="group1">
-          <img
-            class="icon4"
-            referrerpolicy="no-referrer"
-            src="/assets/dingwei.png"
-          />
-          <span class="word6">万达</span>
-          <span class="txt9">181***2733</span>
-        </div>
-        <div class="group2">
-          <span class="word7">地址：北京房山区良乡镇体育路6号院</span>
-        </div>
-      </div>
-
+        <view class="wanda">
+          <view>
+            <image class="Receipt-image1" src="/assets/dingwei.png"></image>
+            <text class="Receipt-text1">万达</text>
+            <text class="Receipt-text2">181***2733</text>
+          </view>
+          <text class="Receipt-text3">地址：北京房山区良乡镇体育路6号院</text>
+        </view>
+        <view class="kong"></view>
+        <view class="info">
+          <view class="info-1">
+            <text class="info-text">物流信息</text>
+          </view>
+          <view class="info-2">
+            <text class="info-text1">物流公司：</text>
+            <text class="info-text2">京东物流</text>
+          </view>
+          <view class="info-3">
+            <text class="info-text3">快递单号：</text>
+            <text class="info-text4">CKF213425453</text>
+          </view>
+        </view>
+        <view class="kong1"></view>
+        <view class="order-box">
+          <view class="order-page1">
+            <text class="order-text1">订单号：12482390578409258</text>
+            <text class="order-text2">已发货，待确认收货</text>
+          </view>
+          <view class="order-page2">
+            <image class="order-image" src="http://kh.jikeyun.net/img/product.png" alt=""></image>
+            <view class="order-page3">
+              <text class="order-text3">阿迪达斯官网 三叶草SUPERSTAR 男女贝
+              壳头经典运动鞋 EG4958…</text>
+              <view class="order-page4">
+                <text class="order-text4">红色  39码</text>
+              </view>
+                <view class="order-reward">
+                <view class="order-page5">
+                <text class="order-text5">共 1 件商品  合计</text>
+                <text class="order-text6">¥</text>
+                <text class="order-text7">99</text>
+                <text class="order-text8">积分</text>
+              </view>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="kong2"></view>
+        <view class="bot-box">
+          <view class="confirm-box">
+            <text>确认收货</text>
+          </view>
+        </view>
       </view>
  </view>     
