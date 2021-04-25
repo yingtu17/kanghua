@@ -2,23 +2,18 @@
     <div class="block1">
       <div class="bd2">
         <span class="word1">授权</span>
-        <img
-          class="pic1"
-          referrerpolicy="no-referrer"
-          src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng802d45b6f75ec40d02fd91edc371443bf4cd1065b69b57eacbee9d960275705c"
-        />
       </div>
       <div class="bd3">
-        <img
+        <image
           class="pic2"
           referrerpolicy="no-referrer"
-          src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngd202e0bc4842ef2bc02d0e4884a18bf12a8f62b76cafe1923ca6e575d817b071"
+          src="/assets/logo@2x.png"
         />
       </div>
       <span class="word2">康华君泰</span>
       <span class="word3">
         根据平台方相关要求，请在微信授权后使用康华君泰小程序管理您的血压健康。
       </span>
-      <button class="bd4" open-type="getUserInfo">微信授权登录</button>
+      <button open-type="getUserInfo" bindgetuserinfo="reqLogin" class="bd4">获取用户信息</button>
     </div>
   </div>

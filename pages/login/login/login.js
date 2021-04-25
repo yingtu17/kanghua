@@ -64,16 +64,27 @@ Page({
 
   },
   reqLogin: function() {
-    wx.getUserProfile()
+    var _this = this;
     wx.login({
-      success (res) {
-        if (res.code) {
-          //发起网络请求
-          console.log(res)
-        } else {
-          console.log('登录失败！' + res.errMsg)
-        }
-      }
-    })
+      success: function(res){
+        /* 获取用户信息的弹框 */
+        wx.getUserInfo({
+          /*withCredentials默认值为true,可不填，当设为false时就获取不到用户的加密信息*/
+          withCredentials: true,
+          success: function(res){
+            console.log(res);
+            var user = res.userInfo
+            _this.setData({
+              userInfo: user,
+              hasUserInfo: true
+            })
+ 
+          },
+          fail:function(res){
+            console.log(res)
+          }
+       })
+     }
+  })
   }
 })
