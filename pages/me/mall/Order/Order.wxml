@@ -17,5 +17,67 @@
           </view>
           <view class="section2"><view class="main1"></view></view>
         </view>
+        <view class="kong"></view>
+        <view class="order-box">
+          <view class="order-page1">
+            <text class="order-text1">订单号：12482390578409258</text>
+            <text class="order-text2">已发货，待确认收货</text>
+          </view>
+          <view class="order-page2">
+            <image class="order-image" src="/assets/product.png" alt=""></image>
+            <view class="order-page3">
+              <text class="order-text3">阿迪达斯官网 三叶草SUPERSTAR 男女贝
+              壳头经典运动鞋 EG4958…</text>
+              <view class="order-page4">
+                <text class="order-text4">红色  39码</text>
+              </view>
+                <view class="order-reward">
+                <view class="order-page5">
+                <text class="order-text5">共 1 件商品  合计</text>
+                <text class="order-text6">¥</text>
+                <text class="order-text7">99</text>
+                <text class="order-text8">积分</text>
+                <view class="order-reward">
+                  <navigator url="/pages/me/mall/Order/Orderdetails/Orderdetails" class="order-page6">
+                  <text class="order-text9">确认收货</text>
+                  </navigator>
+                </view>
+              </view>
+              </view>
+            </view>
+          </view>
+        </view>
+        
+        <view class="kong"></view>
+        <view class="order-box">
+          <view class="order-page1">
+            <text class="order-text1">订单号：12482390578409258</text>
+            <text class="order-text2">已发货，待确认收货</text>
+          </view>
+          <view class="order-page2">
+            <image class="order-image" src="/assets/product.png" alt=""></image>
+            <view class="order-page3">
+              <text class="order-text3">阿迪达斯官网 三叶草SUPERSTAR 男女贝
+              壳头经典运动鞋 EG4958…</text>
+              <view class="order-page4">
+                <text class="order-text4">红色  39码</text>
+              </view>
+                <view class="order-reward">
+                <view class="order-page5">
+                <text class="order-text5">共 1 件商品  合计</text>
+                <text class="order-text6">¥</text>
+                <text class="order-text7">99</text>
+                <text class="order-text8">积分</text>
+                <view class="order-reward">
+                  <view class="order-page6">
+                  <text class="order-text9">确认收货</text>
+                </view>
+                </view>
+              </view>
+              </view>
+            </view>
+          </view>
+        </view>
+        
       </view>
 </view>

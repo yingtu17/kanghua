@@ -1,0 +1,36 @@
+<view class="page">
+      <view class="bd1">
+        <view class="bd3">
+          <navigator url="/pages/me/me"><image
+            class="label1"
+            referrerpolicy="no-referrer"
+            src="/assets/icon_left.png"
+          /></navigator>
+          <text class="info2">订单</text>
+          <text></text>
+        </view>
+        <view class="mod4">
+        <view class="group3">
+          <view class="box9">
+            <image src="/assets/dingwei.png" alt=""></image>
+          </view>
+          <text class="info3">待收货</text>
+        </view>
+      </view>
+      <div class="mod3">
+        <div class="group1">
+          <img
+            class="icon4"
+            referrerpolicy="no-referrer"
+            src="/assets/dingwei.png"
+          />
+          <span class="word6">万达</span>
+          <span class="txt9">181***2733</span>
+        </div>
+        <div class="group2">
+          <span class="word7">地址：北京房山区良乡镇体育路6号院</span>
+        </div>
+      </div>
+
+      </view>
+ </view>     
