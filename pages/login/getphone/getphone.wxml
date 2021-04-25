@@ -14,6 +14,6 @@
       <span class="word3">
         根据平台方相关要求，请在微信授权后使用康华君泰小程序管理您的血压健康。
       </span>
-      <button bindtap="reqLogin" class="bd4">获取用户信息</button>
+      <button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber" class="bd4">绑定手机号</button>
     </div>
   </div>

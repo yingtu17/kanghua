@@ -15,7 +15,8 @@
     "pages/me/mall/PointsMall/PointsMall",
     "pages/msg/chat/chat",
     "pages/login/login/login",
-    "pages/me/mall/Order/Order"
+    "pages/me/mall/Order/Order",
+    "pages/login/getphone/getphone"
   ],
   "window": {
     "backgroundTextStyle": "light",
