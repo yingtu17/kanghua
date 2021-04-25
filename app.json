@@ -12,7 +12,9 @@
     "pages/index/chart/chart",
     "pages/me/attention/attention",
     "pages/me/problem/problem",
-    "pages/me/PointsMall/PointsMall"
+    "pages/me/PointsMall/PointsMall",
+    "pages/msg/chat/chat",
+    "pages/login/login/login"
   ],
   "window": {
     "backgroundTextStyle": "light",

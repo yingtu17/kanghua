@@ -2,7 +2,7 @@
   <view class="msg-page-title">
     <text>消息</text>
   </view>
-  <view class="messages">
+  <view class="messages" bindtap="openchat">
     <view class="message">
       <view class="msg-avatar">
         <image src="/assets/avatar.jpg"></image>

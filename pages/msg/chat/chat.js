@@ -1,4 +1,4 @@
-// pages/msg/messages/message.js
+// pages/msg/chat/chat.js
 Page({
 
   /**
@@ -62,10 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  openchat: function() {
-    wx.navigateTo({
-      url: '/pages/msg/chat/chat'
-    })
   }
 })
