@@ -1,5 +1,5 @@
 <view class="tabbar">
-  <navigator class="navigator" url="/pages/index/index">
+  <navigator class="navigator" url="/pages/index/index" hover-stop-propagation="false" hover-start-time="500000" open-type="redirect">
     <view class="index-tab">
       <image wx:if="{{indexActive === true}}" src="http://kh.jikeyun.net/img/hushi.png" class="tab-img"></image>
       <image wx:else src="http://kh.jikeyun.net/img/nohushi.png" class="tab-img"></image>
@@ -7,7 +7,7 @@
       <text wx:else class="tab-text">主页</text>
     </view>
   </navigator>
-  <navigator class="navigator" url="/pages/msg/messages/message">
+  <navigator class="navigator" url="/pages/msg/messages/message" hover-stop-propagation="false" hover-start-time="500000" open-type="redirect">
     <view class="msg-tab">
       <image wx:if="{{msgActive === true}}" src="http://kh.jikeyun.net/img/xiaoxiact.png" class="tab-img"></image>
       <image wx:else src="http://kh.jikeyun.net/img/xiaoxi.png" class="tab-img"></image>
@@ -15,7 +15,7 @@
       <text wx:else class="tab-text">消息</text>
     </view>
   </navigator>
-  <navigator url="/pages/me/me" class="navigator">
+  <navigator url="/pages/me/me" class="navigator" hover-stop-propagation="false" hover-start-time="500000" open-type="redirect">
     <view class="me-tab">
       <image wx:if="{{mineActive === true}}" src="http://kh.jikeyun.net/img/haopingact.png" class="tab-img"></image>
       <image wx:else src="http://kh.jikeyun.net/img/haoping.png" class="tab-img"></image>

@@ -1,4 +1,4 @@
-<view class="html">
+<scroll-view class="html">
   <view class="top">
     <view src="" class="top-bg" mode="aspectFit">
       <view class="p-data">
@@ -20,32 +20,32 @@
       <view class="check-dates">
         <view class="check-date">
           <text class="check-date-date">第1天</text>
-          <image src="http://kh.jikeyun.net/img/jinbi.png"></image>
+          <image src="http://kh.jikeyun.net/img/jinbi2.png"></image>
           <text class="check-date-score">10积分</text>
         </view>
         <view class="check-date">
           <text class="check-date-date">第2天</text>
-          <image src="http://kh.jikeyun.net/img/jinbi.png"></image>
+          <image src="http://kh.jikeyun.net/img/jinbi2.png"></image>
           <text class="check-date-score">10积分</text>
         </view>
         <view class="check-date">
           <text class="check-date-date">第3天</text>
-          <image src="http://kh.jikeyun.net/img/jinbi.png"></image>
+          <image src="http://kh.jikeyun.net/img/jinbi2.png"></image>
           <text class="check-date-score">10积分</text>
         </view>
         <view class="check-date">
           <text class="check-date-date">第4天</text>
-          <image src="http://kh.jikeyun.net/img/jinbi.png"></image>
+          <image src="http://kh.jikeyun.net/img/jinbi2.png"></image>
           <text class="check-date-score">10积分</text>
         </view>
         <view class="check-date">
           <text class="check-date-date">第5天</text>
-          <image src="http://kh.jikeyun.net/img/jinbi.png"></image>
+          <image src="http://kh.jikeyun.net/img/jinbi2.png"></image>
           <text class="check-date-score">10积分</text>
         </view>
         <view class="check-date">
           <text class="check-date-date">第6天</text>
-          <image src="http://kh.jikeyun.net/img/jinbi.png"></image>
+          <image src="http://kh.jikeyun.net/img/jinbi2.png"></image>
           <text class="check-date-score">10积分</text>
         </view>
         
@@ -54,7 +54,7 @@
             <text class="check-date-date">第7天</text>
             <text class="check-date-score">10积分</text>
           </view>
-          <image src="http://kh.jikeyun.net/img/jinbi.png"></image>
+          <image src="http://kh.jikeyun.net/img/jinbi2.png"></image>
         </view>
       </view>
     </view>
@@ -68,7 +68,7 @@
       <view class="tasks">
         <view class="task">
           <view class="task-img-box">
-            <image src="http://kh.jikeyun.net/img/task.png" class="task-icon"></image>
+            <image src="http://kh.jikeyun.net/img/task2.png" class="task-icon"></image>
           </view>
           <view class="task-texts">
             <text class="task-text1">血压健康保持</text>
@@ -82,7 +82,7 @@
         </view>
         <view class="task task2">
           <view class="task-img-box">
-            <image src="http://kh.jikeyun.net/img/task.png" class="task-icon"></image>
+            <image src="http://kh.jikeyun.net/img/task2.png" class="task-icon"></image>
           </view>
           <view class="task-texts">
             <text class="task-text1">血压健康保持</text>
@@ -115,4 +115,4 @@
     </view>
    <tabbar indexActive="true"></tabbar>
   </view>
-</view>
+</scroll-view>
