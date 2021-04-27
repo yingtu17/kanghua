@@ -81,6 +81,8 @@
   margin-top: 4.27vw;
   flex-direction: row;
   display: flex;
+  position: fixed;
+  background: #fff;
 }
 
 .label2 {
@@ -119,6 +121,7 @@
   margin-top: 10.14vw;
   flex-direction: row;
   display: flex;
+  margin-top: 80px;
 }
 
 .txt1 {
@@ -139,12 +142,11 @@
   width: 12.54vw;
   height: 0.27vw;
   border-radius: 0.5px 0.5px 0.5px 0.5px;
-  background-color: rgba(204, 204, 204, 1);
-  margin-top: 5.34vw;
   margin-left: 2.67vw;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  border-bottom: 1px solid black;
 }
 
 .word3 {
@@ -167,12 +169,11 @@
   width: 12.54vw;
   height: 0.27vw;
   border-radius: 0.5px 0.5px 0.5px 0.5px;
-  background-color: rgba(204, 204, 204, 1);
-  margin-top: 5.34vw;
   margin-left: 1.34vw;
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
+  border-bottom: 1px solid black;
 }
 
 .txt2 {
@@ -423,10 +424,19 @@ font-weight: 400;
 color: #666666;
 line-height: 20px;
 }
-.drugs image {
-  width: 36rpx;
-  height: 36rpx;
-  margin-right: 20rpx;
+.drugs radio {
+  width: 18px;
+  height: 18px;
+  margin-right: 18px;
+  transform:scale(0.75);
+  position: relative;
+  bottom: 2px;
+}   
+.radio {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+  
 }
 .upload-box {
   display: flex;

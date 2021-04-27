@@ -3,11 +3,13 @@
       <view class="mod1">
         <view class="box1">
           <view class="box3">
-            <image
+            <navigator delta="1" open-type="navigateBack">
+              <image
               class="label2"
               referrerpolicy="no-referrer"
               src="http://kh.jikeyun.net/img/icon_left.png"
             />
+            </navigator>
             <span class="info1">确定订单</span>
             <img
               class="pic1"

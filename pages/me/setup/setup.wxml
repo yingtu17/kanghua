@@ -7,10 +7,10 @@
             referrerpolicy="no-referrer"
             src="http://kh.jikeyun.net/img/icon_left.png"
           /></navigator>
-          <span class="txt1">个人设置</span>
+          <text class="txt1">个人设置</text>
         </view>
-        <view class="layer3">
-          <span class="word1" bindtap="cancelbinding">解除手机号</span>
+        <view class="layer3" bindtap="cancelbinding">
+          <text class="word1" >解除手机号</text>
           <image
             class="icon2"
             referrerpolicy="no-referrer"

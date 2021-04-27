@@ -33,6 +33,46 @@
             </view>
           </view>
         </view>
+        <view class="bd5" bindtap="opendetail">
+          <image class="mall-image" src="http://kh.jikeyun.net/img/product.png" alt=""></image>
+          <view class="mall-box">
+            <text class="mall-text">阿迪达斯官网 三叶草SUPERSTAR 男女
+            贝壳头经典运动鞋 EG4958…</text>
+            <view class="mall-Promotion">
+              <view class="yuan">
+                <text class="yuan-text">0元购</text>
+              </view>
+              <view class="Promotion">
+                <text class="Promotion-text">促销打折</text>
+              </view>
+            </view>
+            <view class="integral">
+              <text class="integral-1">¥</text>
+              <text class="integral-2">25</text>
+              <text class="integral-3">积分</text>
+            </view>
+          </view>
+        </view>
+        <view class="bd5" bindtap="opendetail">
+          <image class="mall-image" src="http://kh.jikeyun.net/img/product.png" alt=""></image>
+          <view class="mall-box">
+            <text class="mall-text">阿迪达斯官网 三叶草SUPERSTAR 男女
+            贝壳头经典运动鞋 EG4958…</text>
+            <view class="mall-Promotion">
+              <view class="yuan">
+                <text class="yuan-text">0元购</text>
+              </view>
+              <view class="Promotion">
+                <text class="Promotion-text">促销打折</text>
+              </view>
+            </view>
+            <view class="integral">
+              <text class="integral-1">¥</text>
+              <text class="integral-2">25</text>
+              <text class="integral-3">积分</text>
+            </view>
+          </view>
+        </view>
       </view>
       <view class="bd12">
         <view class="bd14">

@@ -5,7 +5,9 @@ Page({
    * Page initial data
    */
   data: {
-
+    checked1: false,
+    checked2: false,
+    checked3: false,
   },
 
   /**
@@ -62,5 +64,41 @@ Page({
    */
   onShareAppMessage: function () {
 
-  }
+  },
+  checked: function(e) {
+    // var target = e.target.id;
+    // if (target === "checked1") {
+    //   if (this.data.checked1 === true) {
+    //     this.setData({
+    //       checked1: false
+    //     })
+    //   } else {
+    //     this.setData({
+    //       checked1: true
+    //     })
+    //   }
+    // }
+    // if (target === "checked2") {
+    //   if (this.data.checked1 === true) {
+    //     this.setData({
+    //       checked2: false
+    //     })
+    //   } else {
+    //     this.setData({
+    //       checked2: true
+    //     })
+    //   }
+    // }
+    // if (target === "checked3") {
+    //   if (this.data.checked1 === true) {
+    //     this.setData({
+    //       checked3: false
+    //     })
+    //   } else {
+    //     this.setData({
+    //       checked3: true
+    //     })
+    //   }
+    // }
+  },
 })

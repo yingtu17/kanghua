@@ -13,18 +13,20 @@
             <view class="mod2">
               <text class="info1">林小彤</text>
               <view class="layer4">
-                <navigator url="/pages/me/score/score"><text class="word2">我的积分: 9903</text></navigator>
+                <navigator url="/pages/me/score/score" hover-start-time="500000"><text class="word2">我的积分: 9903</text></navigator>
               </view>
             </view>
-            <image
+            <navigator url="/pages/me/setup/setup" hover-start-time="500000">
+              <image
               class="icon3"
               referrerpolicy="no-referrer"
               src="http://kh.jikeyun.net/img/shezhi.png"
             />
+            </navigator>
           </view>
           <view class="layer7"><text class="info2">要不写点什么吧～</text></view>
         </view>
-        <navigator url="/pages/me/mall/PointsMall/PointsMall" class="bd4">
+        <navigator hover-start-time="500000" url="/pages/me/mall/PointsMall/PointsMall" class="bd4" >
           <image
             class="label1"
             referrerpolicy="no-referrer"
@@ -81,7 +83,7 @@
           />
         </view>
         <view class="bd11"></view>
-        <navigator url="/pages/me/highpress/highpress">
+        <navigator url="/pages/me/highpress/highpress" hover-start-time="500000">
         <view class="bd12">
           <image
             class="label5"
@@ -100,7 +102,13 @@
         </view> -->
         
       </view>
-      <view class="layer8"></view>
+      <view class="layer8">
+        <image
+            class="Female"
+            referrerpolicy="no-referrer"
+            src="/assets/Female.png"
+          />
+      </view>
       <view class="layer10"></view>
       <tabbar mineActive="true"></tabbar>
     </view>

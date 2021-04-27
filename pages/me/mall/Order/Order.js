@@ -62,5 +62,10 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  opendetailpage: function(){
+    wx.navigateTo({
+      url: '/pages/me/mall/Order/Orderdetails/Orderdetails',
+    })
   }
 })

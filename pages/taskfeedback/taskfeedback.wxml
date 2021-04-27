@@ -1,8 +1,13 @@
 <div class="page">
 <div class="layer1">
   <div class="section2">
-    <img class="label1" referrerpolicy="no-referrer"
-      src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng97f7c7231c8cf3d1526309698e0d966c4df0a954100eaf141f9c0dfd22c6b40b" />
+    <navigator delta="1" open-type="navigateBack">
+          <image
+          class="label1"
+          referrerpolicy="no-referrer"
+          src="http://kh.jikeyun.net/img/icon_left.png"
+        />
+    </navigator>
     <span class="info1">反馈任务</span>
     <img class="pic1" referrerpolicy="no-referrer"
       src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng802d45b6f75ec40d02fd91edc371443bf4cd1065b69b57eacbee9d960275705c" />
@@ -23,13 +28,13 @@
   <span class="word6">药物服用</span>
   <view class="mod5">
     <view class="drugs">
-      <image src="../../assets/xuanze_1.png"></image><text>高血压药（antihypertensive drugs）</text>
+      <radio color="#1869e0" checked="{{checked1}}" bindtap="checked" id="checked1"></radio><text>高血压药（antihypertensive drugs）</text>
     </view>
     <view class="drugs">
-      <image src="../../assets/xuanze.png"></image><text>β受体阻滞剂（未使用）</text>
+      <radio color="#1869e0" checked="{{checked2}}" bindtap="checked" id="checked2"></radio><text>β受体阻滞剂（未使用）</text>
     </view>
     <view class="drugs">
-      <image src="../../assets/xuanze.png"></image><text>钙通道阻断剂（未使用）</text>
+      <radio color="#1869e0" checked="{{checked3}}" bindtap="checked" id="checked3"></radio><text>钙通道阻断剂（未使用）</text>
     </view>
   </view>
   <span class="word11">任务完成说明</span>

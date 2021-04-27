@@ -81,6 +81,7 @@
   margin-top: 4.27vw;
   flex-direction: row;
   display: flex;
+  position: fixed;
 }
 
 .label1 {
@@ -116,7 +117,7 @@
   z-index: auto;
   width: 93.6vw;
   height: 7.2vw;
-  margin-top: 8.8vw;
+  margin-top: 80px;
   flex-direction: row;
   display: flex;
 }
@@ -498,8 +499,12 @@ font-weight: 400;
 color: #666666;
 line-height: 20px;
 }
-.drugs image {
-  width: 36rpx;
-  height: 36rpx;
+.drugs radio {
+  width: 18px;
+  height: 18px;
   margin-right: 20rpx;
+  color: #1869e0;
+  transform:scale(0.75);
+  position: relative;
+  bottom: 2px;
 }

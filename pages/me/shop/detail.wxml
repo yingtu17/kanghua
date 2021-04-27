@@ -1,5 +1,10 @@
 <view class="shop-page">
   <view class="shop-img">
+    <view class="shop-number">
+      <text>1</text>
+      <text>/</text>
+      <text>6</text>
+    </view>
     <image src="http://kh.jikeyun.net/img/pic@2x.png"></image>
   </view>
   <view class="shop-detail">
@@ -11,11 +16,13 @@
     <view class="shop-desc">
       <text>阿迪达斯官网 三叶草 SUPERSTAR 男女 贝壳头经典运动鞋 EG4958</text>
     </view>
+    <view class="space"></view>
     <view class="shop-prop" bindtap="selectprop">
       <text>已选</text>
       <text>XXL（43-44），0.24kg，1件</text>
       <image src="http://kh.jikeyun.net/img/2@2x.png"></image>
     </view>
+    <view class="space"></view>
   </view>
   <view class="shop-info">
     <image src="http://kh.jikeyun.net/img/pic2.png"></image>
@@ -61,7 +68,7 @@
       <view class="color">
         <text>S（35-36）</text>
       </view>
-      <view class="color">
+      <view class="color active">
         <text>S（35-36）</text>
       </view>
       <view class="color">

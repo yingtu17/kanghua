@@ -405,16 +405,16 @@ order-page3 {
   display: flex;
   margin-right: 11px;
   width: 70px;
-height: 30px;
-background: #EA3C3D;
-border-radius: 15px;
-justify-content: center;
-align-items: center;
+  height: 30px;
+  background: #EA3C3D;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
 }
-.confirm-box text {
-font-size: 12px;
-font-family: PingFangSC-Regular, PingFang SC;
-font-weight: 400;
-color: #FFFFFF;
-line-height: 17px;
+  .confirm-box text {
+  font-size: 12px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  line-height: 17px;
 }

@@ -13,9 +13,13 @@
       </view>
     </view>
   </view>
+  <view class="kong"></view>
   <view class="messages">
     <view class="message">
       <view class="msg-avatar">
+        <view class="number">
+          <text>10</text>
+        </view>
         <image src="http://kh.jikeyun.net/img/avatar.jpg"></image>
       </view>
       <view class="msg-texts">

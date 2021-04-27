@@ -78,6 +78,7 @@
   margin-left: 15px;
   margin-top: 16px;
   display: flex;
+  background-color: #fff;
 }
 
 .label1 {
@@ -219,7 +220,7 @@
   font-weight: 400;
   color: #D1A10A;
   line-height: 18px;
-  margin-left: 52px;
+  padding-left: 38px;
 }
 
 .order-page2 {
@@ -235,7 +236,7 @@
   margin-right: 14px;
 }
 
-order-page3 {
+.order-page3 {
   width: 252px;
   height: 87px;
   display: flex;
@@ -245,7 +246,7 @@ order-page3 {
 .order-text3 {
   width: 252px;
   height: 40px;
-  font-size: 14px;
+  font-size: 13px;
   font-family: PingFangSC-Regular, PingFang SC;
   font-weight: 400;
   color: #333333;
@@ -273,6 +274,7 @@ order-page3 {
 }
 
 .order-reward {
+  width: 240px;
   display: flex;
   flex-direction: row-reverse ;
 }
@@ -331,6 +333,11 @@ order-page3 {
   font-weight: 400;
   color: #333333;
   line-height: 14px;
+}
+
+.order-reward1 {
+  display: flex;
+  flex-direction: row-reverse ;
 }
 
 .order-page6 {

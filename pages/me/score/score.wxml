@@ -41,4 +41,27 @@
     <navigator delta="1" open-type="navigateBack" class="back-icon"><image src="http://kh.jikeyun.net/img/icon_left.png"></image></navigator>
     <text>积分明细</text>
   </view>
+  <div class="mod15">
+          <div class="group1">
+            <div class="section3"></div>
+            <div class="section4"></div>
+            <image
+              class="label1"
+              referrerpolicy="no-referrer"
+              src="http://kh.jikeyun.net/img/qupiao.png"
+            />
+          </div>
+          <div class="group2">
+            <span class="word16">首页</span>
+            <span class="word17">订单</span>
+            <span class="word18">明细</span>
+          </div>
+          <div class="group3">
+            <img
+              class="img1"
+              referrerpolicy="no-referrer"
+              src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng5a55bce0e61824e6b35e82f487c8fc2828194ab82d71f586b93de2f8b36bc031"
+            />
+          </div>
+        </div>
 </view>
