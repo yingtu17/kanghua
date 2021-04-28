@@ -1,0 +1,198 @@
+.page {
+  z-index: 1;
+  position: relative;
+  width: 100vw;
+  height: 216.54vw;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 3.74vw;
+  align-items: flex-end;
+  padding-right: 2.4vw;
+}
+.mod1 {
+  z-index: auto;
+  width: 93.87vw;
+  height: 182.67vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.mod3 {
+  z-index: auto;
+  width: 92.54vw;
+  height: 7.47vw;
+  margin-left: 1.34vw;
+  margin-top: 4.27vw;
+  flex-direction: row;
+  display: flex;
+}
+.label2 {
+  z-index: 42;
+  width: 2.14vw;
+  height: 4vw;
+  margin-top: 1.6vw;
+}
+.word1 {
+  z-index: 46;
+  width: 15.74vw;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(48, 49, 51, 1);
+  font-size: 4vw;
+  letter-spacing: -0.3947365880012512px;
+  font-family: PingFangSC-Medium;
+  line-height: 5.6vw;
+  text-align: left;
+  margin-top: 0.8vw;
+  margin-left: 34.94vw;
+}
+.img1 {
+  z-index: 47;
+  width: 20vw;
+  height: 7.47vw;
+  margin-left: 19.74vw;
+}
+.mod4 {
+  z-index: auto;
+  width: 91.2vw;
+  height: 10.94vw;
+  margin-left: 0.54vw;
+  margin-top: 14.4vw;
+  flex-direction: row;
+  display: flex;
+}
+.layer1 {
+  z-index: 13;
+  width: 3.74vw;
+  height: 3.74vw;
+  background-image: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng300eacd8b021cf87c9754888b72c543508e61675adc089fbc5f924e3c342bacb);
+  background-repeat: no-repeat;
+  background-position: -0.012781249999989086px -0.0001093749999654392px;
+  margin-top: 4.54vw;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.mod4-radio {
+  transform:scale(0.75);
+  position: absolute;
+  top: 32vw;
+  left: 2vw;
+}
+
+.layer2 {
+  z-index: auto;
+  width: 47.2vw;
+  height: 10.94vw;
+  margin-left: 1.6vw;
+  display: flex;
+  flex-direction: column;
+}
+.layer3 {
+  z-index: auto;
+  width: 41.87vw;
+  height: 5.87vw;
+  margin-left: 0.27vw;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.word2 {
+  z-index: 9;
+  width: 8vw;
+  display: block;
+  overflow-wrap: break-word;
+  font-size: 4vw;
+  letter-spacing: -0.36428600549697876px;
+  line-height: 5.6vw;
+  text-align: left;
+  margin-top: 0.27vw;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 900;
+  color: #333333;
+}
+.word3 {
+  z-index: 10;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 4.26vw;
+  letter-spacing: -0.38857173919677734px;
+  line-height: 5.87vw;
+  text-align: left;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 900;
+  color: #333333;
+}
+
+.txt2 {
+  z-index: 11;
+  display: block;
+  color: rgba(102, 102, 102, 1);
+  font-size: 3.46vw;
+  letter-spacing: -0.3157147467136383px;
+  font-family: PingFangSC-Regular;
+  line-height: 4.8vw;
+  text-align: left;
+  align-self: center;
+  margin-top: 0.27vw;
+}
+
+.txt17 {
+  width: 307px;
+  font-size: 13px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #666666;
+  line-height: 18px;
+  margin-top: 0.27vw;
+}
+
+.icon2 {
+  z-index: 4;
+  width: 3.47vw;
+  height: 3.47vw;
+  margin-top: 7.47vw;
+  margin-left: 35.2vw;
+}
+
+.icon17 {
+  z-index: 4;
+  width: 3.47vw;
+  height: 3.47vw;
+  margin-top: 7.47vw;
+  margin-left: 38.7vw;
+}
+
+.mod7 {
+  z-index: 59;
+  height: 11.74vw;
+  border-radius: 5px;
+  background-color: rgba(0, 131, 133, 1);
+  align-self: flex-end;
+  margin-right: 0.54vw;
+  margin-top: 107.74vw;
+  width: 92vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.txt3 {
+  z-index: 60;
+  width: 8.54vw;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 4.26vw;
+  letter-spacing: -0.4171721339225769px;
+  font-family: PingFangSC-Medium;
+  line-height: 5.87vw;
+  text-align: left;
+}

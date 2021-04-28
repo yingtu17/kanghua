@@ -38,13 +38,13 @@
     </view>
   </view>
   <view class="section5">
-    <navigator delta="1" open-type="navigateBack" class="back-icon"><image src="http://kh.jikeyun.net/img/icon_left.png"></image></navigator>
+    <navigator delta="1" open-type="navigateBack" class="back-icon" hover-start-time="500000"><image src="http://kh.jikeyun.net/img/icon_left.png"></image></navigator>
     <text>积分明细</text>
   </view>
   <div class="mod15">
           <div class="group1">
-            <div class="section3"></div>
-            <div class="section4"></div>
+            <navigator url="/pages/me/mall/PointsMall/PointsMall" hover-start-time="500000" open-type="redirect"><div class="section3"></div></navigator>
+            <navigator url="/pages/me/mall/Order/Order" hover-start-time="500000"><div class="section4"></div></navigator>
             <image
               class="label1"
               referrerpolicy="no-referrer"
@@ -52,8 +52,8 @@
             />
           </div>
           <div class="group2">
-            <span class="word16">首页</span>
-            <span class="word17">订单</span>
+            <navigator url="/pages/me/mall/PointsMall/PointsMall" hover-start-time="500000" open-type="redirect"><span class="word16">首页</span></navigator>
+            <navigator url="/pages/me/mall/Order/Order" hover-start-time="500000"><span class="word17">订单</span></navigator>
             <span class="word18">明细</span>
           </div>
           <div class="group3">

@@ -3,7 +3,7 @@
     <view class="mod1">
       
       <view class="mod3">
-        <navigator delta="1" open-type="navigateBack">
+        <navigator delta="1" open-type="navigateBack" hover-start-time="500000">
           <image
           class="label2"
           referrerpolicy="no-referrer"
@@ -39,8 +39,8 @@
           <text>上传凭证</text>
         </view>
       </view>
-      <button class="mod10">
+      <view class="mod10">
         <text class="word9">确定</text>
-      </button>
+      </view>
     </view>
   </view>

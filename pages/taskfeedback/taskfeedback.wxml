@@ -1,7 +1,7 @@
 <div class="page">
 <div class="layer1">
   <div class="section2">
-    <navigator delta="1" open-type="navigateBack">
+    <navigator delta="1" open-type="navigateBack" hover-start-time="500000">
           <image
           class="label1"
           referrerpolicy="no-referrer"

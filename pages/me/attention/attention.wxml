@@ -3,7 +3,7 @@
       <view class="bd1">
         <view class="main1">
           <view class="outer3">
-            <navigator url="/pages/me/me"><image
+            <navigator url="/pages/me/me" hover-start-time="500000"><image
               class="icon2"
               referrerpolicy="no-referrer"
               src="http://kh.jikeyun.net/img/icon_left.png"

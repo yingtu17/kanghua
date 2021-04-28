@@ -1,0 +1,51 @@
+<view class="container">
+    <view class="box1">
+      <view class="bd1">
+        <view class="block2">
+          <navigator delta="1" open-type="navigateBack" hover-start-time="500000"><image
+            class="icon1"
+            referrerpolicy="no-referrer"
+            src="http://kh.jikeyun.net/img/icon_left.png"
+          /></navigator>
+          <text class="word2">添加我的家人</text>
+        </view>
+      </view>
+      <text class="word3">请填写需要绑定家人的信息</text>
+      <view class="bd2">
+        <view class="outer1">
+          <text class="txt1">姓名</text>
+          <input class="word4" placeholder="请输入姓名" />
+        </view>
+      </view>
+      <view class="bd3">
+        <view class="group1">
+          <view class="main1"></view>
+          <view class="main2">
+            <text class="word5">关系</text>
+            <input class="info1" placeholder="请输入关系" />
+          </view>
+        </view>
+      </view>
+      <view class="bd4">
+        <view class="block3">
+          <text class="info2">手机号码</text>
+          <input type="phone"  placeholder="请输入手机号" class="txt2" />
+          <view class="main3">
+            <text class="word6">获取验证码</text>
+          </view>
+        </view>
+      </view>
+      <view class="bd5">
+        <view class="box2">
+          <view class="mod2"></view>
+          <view class="mod3">
+            <text class="word7">验证码</text>
+            <input type="text" class="word8" placeholder="请输入收到的验证码" />
+          </view>
+        </view>
+      </view>
+      <view class="bd6">
+        <text class="info3">提交</text>
+      </view>
+    </view>
+  </view>

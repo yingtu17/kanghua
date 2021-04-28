@@ -20,7 +20,11 @@
     "pages/me/score/score",
     "pages/me/shop/detail",
     "pages/me/highpress/highpress",
-    "pages/me/mall/Order/createorder/createorder"
+    "pages/me/mall/Order/createorder/createorder",
+    "pages/me/Familybond/bond/bond",
+    "pages/me/Familybond/addfamily/addfamily",
+    "pages/me/mall/Order/createorder/Editaddress/Editaddress",
+    "pages/me/mall/Order/createorder/address/address"
   ],
   "window": {
     "backgroundTextStyle": "light",

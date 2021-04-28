@@ -2,7 +2,7 @@
     <view class="container">
       <view class="section1">
         <view class="layer2">
-          <navigator url="/pages/me/me"><image
+          <navigator url="/pages/me/me" hover-start-time="500000"><image
             class="label2"
             referrerpolicy="no-referrer"
             src="http://kh.jikeyun.net/img/icon_left.png"

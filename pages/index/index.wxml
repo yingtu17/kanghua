@@ -1,6 +1,9 @@
-<scroll-view class="html">
+<view class="html">
   <view class="top">
-    <view src="" class="top-bg" mode="aspectFit">
+    <view src="" class="top-bg">
+      <view class="fixed-top">
+        <image src="/assets/toppic1.png"></image>
+      </view>
       <view class="p-data">
       <navigator url="/pages/login/login/login" hover-start-time="500000"><image class="avatar" src="http://kh.jikeyun.net/img/avatar.jpg"></image></navigator>
       <view class="p-data-texts">
@@ -115,4 +118,4 @@
     </view>
    <tabbar indexActive="true"></tabbar>
   </view>
-</scroll-view>
+</view>

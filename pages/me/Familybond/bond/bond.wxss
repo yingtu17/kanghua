@@ -1,0 +1,199 @@
+
+.page {
+  z-index: 1;
+  position: relative;
+  width: 100vw;
+  height: 216.54vw;
+  background-color: rgba(255, 255, 255, 1);
+  overflow: hidden;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 3.74vw;
+  align-items: flex-end;
+  padding-right: 0;
+}
+.outer1 {
+  z-index: auto;
+  width: 95.47vw;
+  height: 182.67vw;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+}
+
+.mod2 {
+  z-index: 999999;
+  width: 100%;
+  height: 72px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+}
+.mod2 navigator {
+  margin-left: 15px;
+}
+.label3 {
+  z-index: 19;
+  width: 2.14vw;
+  height: 4vw;
+  margin-top: 1.87vw;
+}
+.word1 {
+  z-index: 18;
+  width: 16.8vw;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(51, 51, 51, 1);
+  font-size: 4.26vw;
+  letter-spacing: -0.38857173919677734px;
+  font-family: PingFangSC-Medium;
+  line-height: 5.87vw;
+  text-align: left;
+  margin-top: 0.8vw;
+  margin-left: 34.4vw;
+}
+
+.mod3 {
+  z-index: auto;
+  width: 90.14vw;
+  height: 6.94vw;
+  margin-left: 1.87vw;
+  margin-top: 9.34vw;
+  flex-direction: row;
+  display: flex;
+}
+.info2 {
+  z-index: 52;
+  display: block;
+  letter-spacing: -0.39109885692596436px;
+  text-align: left;
+  margin-top: 0.8vw;
+  width: 50px;
+  height: 21px;
+  font-size: 15px;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  line-height: 21px;
+}
+.word2 {
+  z-index: 53;
+  display: block;
+  letter-spacing: -0.3650256097316742px;
+  text-align: left;
+  margin-top: 0.8vw;
+  margin-left: 1.34vw;
+  width: 38px;
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  line-height: 20px;
+}
+.word3 {
+  z-index: 60;
+  display: block;
+  overflow-wrap: break-word;
+  letter-spacing: 0.03999999910593033px;
+  text-align: left;
+  margin-top: 0.8vw;
+  height: 20px;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  line-height: 20px;
+  padding-left: 93px;
+}
+.block1 {
+  z-index: 35;
+  height: 6.94vw;
+  border-radius: 13px;
+  border-color: rgba(135, 139, 161, 1);
+  border-width: 1px;
+  border-style: solid;
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: 4vw;
+  width: 18.94vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.info3 {
+  z-index: 36;
+  display: block;
+  overflow-wrap: break-word;
+  letter-spacing: -0.3400002717971802px;
+  text-align: left;
+  font-size: 14px;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #878BA1;
+  line-height: 20px;
+}
+.mod4 {
+  z-index: 64;
+  width: 93.6vw;
+  height: 0.27vw;
+  background-color: rgba(249, 249, 249, 1);
+  align-self: flex-end;
+  margin-top: 4.27vw;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.mod11 {
+  z-index: 47;
+  height: 11.74vw;
+  border-radius: 5px;
+  background-color: rgba(0, 131, 133, 1);
+  align-self: flex-start;
+  margin-top: 79.74vw;
+  width: 92vw;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.mod12 {
+  z-index: auto;
+  width: 19.74vw;
+  height: 5.6vw;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.outer2 {
+  z-index: 51;
+  width: 2.67vw;
+  height: 2.67vw;
+  background-image: url(https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPnga3844cc69c094afa9a01eb449938de5cf3065e4d9fb555e1042e1a58f27288c2);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 1.6vw;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.info6 {
+  z-index: 49;
+  width: 15.74vw;
+  display: block;
+  overflow-wrap: break-word;
+  color: rgba(255, 255, 255, 1);
+  font-size: 4vw;
+  letter-spacing: -0.36428600549697876px;
+  font-family: PingFangSC-Regular;
+  line-height: 5.6vw;
+  text-align: left;
+}

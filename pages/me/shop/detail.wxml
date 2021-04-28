@@ -29,7 +29,7 @@
   </view>
   <view class="shop-action">
     <text class="action-price">8000积分</text>
-    <navigator url="/pages/me/mall/Order/createorder/createorder">
+    <navigator url="/pages/me/mall/Order/createorder/createorder" hover-start-time="500000">
       <view class="buy">
       <text>立即兑换</text>
     </view>
@@ -37,7 +37,7 @@
   </view>
 </view>
 <view class="back-action">
-  <navigator delta="1" open-type="navigateBack">
+  <navigator delta="1" open-type="navigateBack" hover-start-time="500000">
     <image src="http://kh.jikeyun.net/img/back-action.png"></image>
   </navigator>
 </view>

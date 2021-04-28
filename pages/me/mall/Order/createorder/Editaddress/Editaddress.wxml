@@ -1,0 +1,75 @@
+<div class="page">
+    <div class="box1">
+      <div class="block1">
+        <span class="txt1">9:41</span>
+        <img
+          class="label1"
+          referrerpolicy="no-referrer"
+          src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng1be20f0eced1f466b6b4dc3a981fc6b52a4b9cf391debed94bcf2e01f7c38668"
+        />
+        <div class="box2"></div>
+        <img
+          class="icon1"
+          referrerpolicy="no-referrer"
+          src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPnga05957db16243a63d7c74f823baeb36bbafa63e1b3e30902724223c367fb5eeb"
+        />
+      </div>
+      <div class="block2">
+        <img
+          class="label2"
+          referrerpolicy="no-referrer"
+          src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPngc28a22b2e3066c348f4f21137f608c9f35473bc14a015c6ee784894a6a599586"
+        />
+        <span class="word1">新建收货地址</span>
+        <img
+          class="pic1"
+          referrerpolicy="no-referrer"
+          src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng802d45b6f75ec40d02fd91edc371443bf4cd1065b69b57eacbee9d960275705c"
+        />
+      </div>
+      <div class="block3">
+        <div class="box3">
+          <span class="word2">星海名城</span>
+          <img
+            class="icon2"
+            referrerpolicy="no-referrer"
+            src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng4c5163e611d4c7d67d7c8cf83613f744afdfb28cdb815f5f5f42db939c783494"
+          />
+        </div>
+        <div class="box4"><span class="info1">广东省深圳市南区前路…</span></div>
+      </div>
+      <div class="block4">
+        <span class="word3">收货人</span>
+        <span class="word4">请填写收货人姓名</span>
+      </div>
+      <div class="block5"></div>
+      <div class="block6">
+        <span class="info2">手机号码</span>
+        <span class="word5">请填写收货人手机号</span>
+      </div>
+      <div class="block7"></div>
+      <div class="block8">
+        <span class="txt2">所在地区</span>
+        <span class="word6">省市区县、乡镇等</span>
+      </div>
+      <div class="block9"></div>
+      <div class="block10">
+        <span class="word7">详细地址</span>
+        <span class="info3">街道、楼牌号等</span>
+      </div>
+      <div class="block11"></div>
+      <div class="block12">
+        <div class="layer1">
+          <span class="word8">设置默认地址</span>
+          <span class="info4">提醒:&nbsp;每次下单会默认推荐使用该地址</span>
+        </div>
+        <div class="layer2"></div>
+      </div>
+      <button class="block13">
+        <span class="word9">保存</span>
+      </button>
+      <button class="block14">
+        <span class="txt3">删除</span>
+      </button>
+    </div>
+</div>

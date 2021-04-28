@@ -30,7 +30,7 @@
           <image
             class="label1"
             referrerpolicy="no-referrer"
-            src="http://kh.jikeyun.net/img/yuan.png"
+            src="/assets/yulebao@2x.png"
           />
           <text class="word4">积分商城</text>
           <image
@@ -40,11 +40,11 @@
           />
         </navigator>
         <view class="bd5"></view>
-        <view class="bd6">
+        <navigator url="/pages/me/Familybond/bond/bond" class="bd6" hover-start-time="500000">
           <image
             class="icon5"
             referrerpolicy="no-referrer"
-            src="http://kh.jikeyun.net/img/t2.png"
+            src="/assets/wodeguanzhu@2x.png"
           />
           <text class="word5">家人绑定</text>
           <text class="word6">3</text>
@@ -53,13 +53,14 @@
             referrerpolicy="no-referrer"
             src="http://kh.jikeyun.net/img/icon_right.png"
           />
-        </view>
+        </navigator>
         <view class="bd7"></view>
-        <view class="bd8">
+        <navigator url="/pages/me/faq/faq" hover-start-time="500000">
+          <view class="bd8">
           <image
             class="label2"
             referrerpolicy="no-referrer"
-            src="http://kh.jikeyun.net/img/tanhao.png"
+            src="/assets/tanhao@2x.png"
           />
           <text class="info3">常见问题</text>
           <image
@@ -68,12 +69,14 @@
             src="http://kh.jikeyun.net/img/icon_right.png"
           />
         </view>
+        </navigator>
         <view class="bd9"></view>
-        <view class="bd10">
+        <navigator url="/pages/msg/chat" open-type="redirect" hover-start-time="500000">
+          <view class="bd10">
           <image
             class="label3"
             referrerpolicy="no-referrer"
-            src="http://kh.jikeyun.net/img/Smiley.png"
+            src="/assets/xiaomi@2x.png"
           />
           <text class="info4">在线客服</text>
           <image
@@ -82,13 +85,15 @@
             src="http://kh.jikeyun.net/img/icon_right.png"
           />
         </view>
+        </navigator>
+        
         <view class="bd11"></view>
         <navigator url="/pages/me/highpress/highpress" hover-start-time="500000">
         <view class="bd12">
           <image
             class="label5"
             referrerpolicy="no-referrer"
-            src="http://kh.jikeyun.net/img/xueya.png"
+            src="/assets/guanzhu@2x.png"
           />
           <text class="word7">关于高血压管理</text>
           <image

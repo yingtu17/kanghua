@@ -1,0 +1,42 @@
+<view class="page">
+  <view class="outer1">
+
+    <view class="mod2">
+      <navigator delta="1" open-type="navigateBack" hover-start-time="500000">
+        <image class="label3" referrerpolicy="no-referrer" src="http://kh.jikeyun.net/img/icon_left.png" />
+      </navigator>
+      <text class="word1">我的家人</text>
+    </view>
+    <view class="mod3">
+      <text class="info2">李成梅</text>
+      <text class="word2">父亲</text>
+      <text class="word3">1818831232</text>
+      <view class="block1"><text class="info3">解除</text></view>
+    </view>
+    <view class="mod4"></view>
+
+    <view class="mod3">
+      <text class="info2">何华</text>
+      <text class="word2">父亲</text>
+      <text class="word3">1818831232</text>
+      <view class="block1"><text class="info3">解除</text></view>
+    </view>
+    <view class="mod4"></view>
+
+    <view class="mod3">
+      <text class="info2">徐轩鑫</text>
+      <text class="word2">父亲</text>
+      <text class="word3">1818831232</text>
+      <view class="block1"><text class="info3">解除</text></view>
+    </view>
+    <view class="mod4"></view>
+
+    <navigator url="/pages/me/Familybond/addfamily/addfamily" class="mod11">
+      <view class="mod12">
+        <view class="outer2"></view>
+        <text class="info6">添加家人</text>
+
+      </view>
+    </navigator>
+  </view>
+</view>

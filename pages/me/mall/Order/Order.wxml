@@ -1,7 +1,7 @@
 <view class="page">
       <view class="bd1">
         <view class="bd3">
-          <navigator url="/pages/me/me"><image
+          <navigator url="/pages/me/me" hover-start-time="500000"><image
             class="label1"
             referrerpolicy="no-referrer"
             src="http://kh.jikeyun.net/img/icon_left.png"
@@ -38,7 +38,7 @@
                 <text class="order-text7">99</text>
                 <text class="order-text8">积分</text>
                 <view class="order-reward1">
-                  <navigator url="/pages/me/mall/Order/Orderdetails/Orderdetails" class="order-page6">
+                  <navigator url="/pages/me/mall/Order/Orderdetails/Orderdetails" class="order-page6" hover-start-time="500000">
                   <text class="order-text9">确认收货</text>
                   </navigator>
                 </view>
@@ -82,7 +82,7 @@
       </view>
       <view class="bd12">
         <view class="bd14">
-          <navigator url="/pages/me/mall/PointsMall/PointsMall">
+          <navigator url="/pages/me/mall/PointsMall/PointsMall" hover-start-time="500000">
             <image
             class="label2"
             referrerpolicy="no-referrer"
@@ -90,7 +90,7 @@
           />
             <text class="word8">首页</text>
           </navigator>
-          <navigator url="/pages/me/mall/Order/Order">
+          <navigator url="/pages/me/mall/Order/Order" hover-start-time="500000">
             <image
             class="label2"
             referrerpolicy="no-referrer"
@@ -98,6 +98,7 @@
           />
             <text class="txt7">订单</text>
           </navigator>
+          <navigator url="/pages/me/score/score" hover-start-time="500000" open-type="redirect">
           <view>
             <image
             class="label2"
@@ -106,6 +107,7 @@
           />
             <text class="txt8">明细</text>
           </view>
+        </navigator>
         </view>
       </view>
 </view>

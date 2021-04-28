@@ -187,13 +187,14 @@
   display: flex;
   flex-direction: column;
   position: fixed;
+  height: 100vh;
   top: 0;
   left: 0;
 }
 
 .cover {
   width: 100%;
-  height: 278px;
+  height: 100vh;
   background: rgba(0, 0, 0, 0.3);
 }
 
@@ -202,6 +203,8 @@
   height: 534px;
   background: #FFFFFF;
   border-radius: 10px 10px 0px 0px;
+  position: fixed;
+  bottom: 0px;
 }
 
 .select-desc {

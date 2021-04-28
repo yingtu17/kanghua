@@ -3,7 +3,7 @@
       <view class="mod1">
         <view class="box1">
           <view class="box3">
-            <navigator delta="1" open-type="navigateBack">
+            <navigator delta="1" open-type="navigateBack" hover-start-time="500000">
               <image
               class="label2"
               referrerpolicy="no-referrer"
@@ -14,14 +14,14 @@
             <img
               class="pic1"
               referrerpolicy="no-referrer"
-              src="https://lanhu.oss-cn-beijing.aliyuncs.com/SketchPng802d45b6f75ec40d02fd91edc371443bf4cd1065b69b57eacbee9d960275705c"
+              src=""
             />
           </view>
           <view class="box4">
             <span class="word2">张金华</span>
             <span class="info2">10019982019</span>
           </view>
-          <view class="box5">
+          <navigator url="/pages/me/mall/Order/createorder/address/address" class="box5" hover-start-time="500000">
             <span class="paragraph1">
               北京市 朝阳区三里屯北路19号三里屯太古里北区N8楼
               <br />
@@ -32,7 +32,7 @@
               referrerpolicy="no-referrer"
               src="http://kh.jikeyun.net/img/icon_right.png"
             />
-          </view>
+          </navigator>
           <view class="box6">
             <view class="wrap1"></view>
             <view class="wrap2"></view>

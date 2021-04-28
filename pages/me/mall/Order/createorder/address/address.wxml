@@ -1,0 +1,51 @@
+<view class="page">
+    <view class="mod1">
+      <view class="mod3">
+        <navigator delta="1" open-type="navigateBack" hover-start-time="500000">
+          <image
+          class="label2"
+          referrerpolicy="no-referrer"
+          src="http://kh.jikeyun.net/img/icon_left.png"
+        />
+        </navigator>
+        <text class="word1">选择地址</text>
+      </view>
+
+      <view class="mod4">
+        <view class="layer1">
+          <radio class="mod4-radio" color="#1869e0"></radio>
+        </view>
+        <view class="layer2">
+          <view class="layer3">
+            <text class="word2">谢涵</text>
+            <text class="word3">181****2723</text>
+          </view>
+          <text class="txt2">北京房山区良 乡镇体育路6号院</text>
+        </view>
+        <image
+          class="icon2"
+          referrerpolicy="no-referrer"
+          src="/assets/chuangzuo.png"
+        />
+      </view>
+
+      <view class="mod4">
+        <view class="layer2">
+          <view class="layer3">
+            <text class="word2">杨芮</text>
+            <text class="word3">181****2723</text>
+          </view>
+          <text class="txt17">四川省成都市青白江区城区 石家碾中路 88 号天泉酒店写字楼2503号</text>
+        </view>
+        <image
+          class="icon17"
+          referrerpolicy="no-referrer"
+          src="/assets/chuangzuo.png"
+        />
+      </view>
+
+      <navigator url="/pages/me/mall/Order/createorder/Editaddress/Editaddress" class="mod7" hover-start-time="500000">
+        <text class="txt3">新增</text>
+      </navigator>
+    </view>
+  </view>
